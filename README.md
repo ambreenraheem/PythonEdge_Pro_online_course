@@ -4,9 +4,6 @@
 
 ### Date: 20th-September-2025
 
-<img src="pythonedge-pro.svg" alt="PythonEdge Pro" />
-
-
 ## 📘 PythonEdge Pro – Learn Python from Basics to Advanced
 
 #### Instructor: Ambreen Abdul Raheem
