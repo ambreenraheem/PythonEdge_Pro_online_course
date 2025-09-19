@@ -1,7 +1,9 @@
-![coursepicture](https://github.com/user-attachments/assets/e2a31153-9bf3-4c6a-9c22-eb442b7706e1)
+![coursepicture](https://github.com/user-attachments/assets/34428fe6-a00f-4dfd-9950-735afdc68f43)
+
 
 
 ### Date: 20th-September-2025
+
 <img src="pythonedge-pro.svg" alt="PythonEdge Pro" />
 
 ## 📘 PythonEdge Pro – Learn Python from Basics to Advanced
