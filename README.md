@@ -4,9 +4,7 @@
 
 ### Date: 20th-September-2025
 
-<b><span style="color:red">This is Red Bold</span></b>  
-<b><span style="color:green">This is Green Bold</span></b>  
-<b><span style="color:orange">This is Orange Bold</span></b>
+<img src="pythonedge-pro.svg" alt="PythonEdge Pro" />
 
 
 ## 📘 PythonEdge Pro – Learn Python from Basics to Advanced
