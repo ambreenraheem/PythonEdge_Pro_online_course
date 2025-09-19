@@ -1,6 +1,3 @@
-![coursepicture](https://github.com/user-attachments/assets/34428fe6-a00f-4dfd-9950-735afdc68f43)
-
-
 
 ### Date: 20th-September-2025
 
