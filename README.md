@@ -4,7 +4,7 @@
 
 ### Date: 20th-September-2025
 
-<img src="pythonedge-pro.svg" alt="PythonEdge Pro" />
+<b><span style="color:darkblue">PythonEdge Pro</span></b>
 
 ## 📘 PythonEdge Pro – Learn Python from Basics to Advanced
 
@@ -22,20 +22,24 @@ Functions & Modules\
 File handling & Databases\\
 Object-Oriented Programming (OOP)\
 Advanced Python (decorators, generators, error handling)\
-Part 2 – Artificial Intelligence (AI with Python)\
+
+### Part 2 – Artificial Intelligence (AI with Python)
+
 Introduction to AI & Machine Learning concepts\
 Data handling with Python (NumPy, Pandas)\
 Visualization tools (Matplotlib, Seaborn)\
 Basics of Machine Learning models\
-Hands-on projects to apply learning\
+Hands-on projects to apply learning
 
 ### 🌟 Why PythonEdge Pro?
 
-✅ Easy-to-understand explanations
-✅ Practical examples & projects
-✅ Step-by-step learning path
-✅ Beginner & non-technical friendly
+✅ Easy-to-understand explanations\
+✅ Practical examples & projects\
+✅ Step-by-step learning path\
+✅ Beginner & non-technical friendly\
 ✅ Real-world applications
+
+### Uses of Python
 
 - Python can be used on a server to create web applications.
 - Python can be used alongside software to create workflows.
