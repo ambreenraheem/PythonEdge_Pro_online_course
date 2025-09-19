@@ -61,8 +61,9 @@ It is used for:
 - Readable design: Python was built with readability in mind. Its syntax is close to the English language and is influenced by mathematical notation.
 - New line usage: In Python, a new line marks the end of a command, unlike many other languages that require semicolons or parentheses.
 - Indentation for scope: Python uses indentation (whitespace) to define the scope of loops, functions, and classes. In contrast, most other languages use curly brackets { } for this purpose.
+
+  
 **Example:**
 ```
 print("Hello, World!")
 ```
-
