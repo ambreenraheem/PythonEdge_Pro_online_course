@@ -4,7 +4,7 @@ Date:20-September-2025
 ### Python
 **Installation:** For installation, go to the Python official site and click here: https://www.python.org/
 
-### Syntax:
+### 01 # Syntax:
 Python has a simple syntax similar to the English language.
 **- Execute Python Syntax**
 - As we learned in the previous page, Python syntax can be executed by writing directly in the Command Line:
@@ -18,7 +18,7 @@ print("Hello, World!")
 C:\Users\Your Name>python myfile.py
 ```
 
-### Comment:
+### 02 # Comment:
 Comments can be used to explain Python code. Comments can be used to make the code more readable. Comments can be used to prevent execution when testing code.
 - Creating a Comment
 Comments start with a #, and Python will ignore them:
@@ -40,3 +40,22 @@ Example
 #print("Hello, World!")
 print("Cheers, Mate!")
 ```
+### 03 # Variable:
+Variables are containers for storing data values.
+
+- Creating Variables
+Python has no command for declaring a variable.\
+A variable is created the moment you first assign a value to it.\
+You don’t have to assign a specific type when declaring variables, and their type can change after being assigned.
+```
+x = "Ambreen"
+y = 40
+z = Karachi
+print(x)
+print(y)
+print(z)
+```
+### OUTPUT
+Ambreen\
+40\
+Karachi
