@@ -47,6 +47,7 @@ Variables are containers for storing data values.
 Python has no command for declaring a variable.\
 A variable is created the moment you first assign a value to it.\
 You don’t have to assign a specific type when declaring variables, and their type can change after being assigned.
+**Example # 01**
 ```
 x = "Ambreen"
 y = 40
@@ -55,7 +56,38 @@ print(x)
 print(y)
 print(z)
 ```
-### OUTPUT
+**OUTPUT # 01**
 Ambreen\
 40\
 Karachi
+
+**Example # 02**
+```
+a = 235
+b = 55
+c = 5896
+# mathematical operation
+print(a + b)
+print(a * b)
+print(c - a)
+```
+**OUTPUT # 02**
+290\
+12925\
+5661
+
+**Example # 03**
+```
+# more presentable:
+h = 58
+i = 654
+j = 258
+# again mathematical operation with string
+print("This is Addition: ", i + j)
+print("This is Multiplication: ", h * i)
+```
+**OUTPUT # 03**
+This is Addition: 912\
+This is Multiplication: 37932
+
+
