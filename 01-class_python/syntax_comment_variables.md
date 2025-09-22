@@ -56,7 +56,7 @@ print(x)
 print(y)
 print(z)
 ```
-**OUTPUT # 01**
+**OUTPUT # 01**\
 Ambreen\
 40\
 Karachi
@@ -71,7 +71,7 @@ print(a + b)
 print(a * b)
 print(c - a)
 ```
-**OUTPUT # 02**
+**OUTPUT # 02**\
 290\
 12925\
 5661
@@ -86,7 +86,7 @@ j = 258
 print("This is Addition: ", i + j)
 print("This is Multiplication: ", h * i)
 ```
-**OUTPUT # 03**
+**OUTPUT # 03**\
 This is Addition: 912\
 This is Multiplication: 37932
 
