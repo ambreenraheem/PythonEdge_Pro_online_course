@@ -91,7 +91,7 @@ print("This is Multiplication: ", h * i)
 ```
 **OUTPUT # 03**\
 This is Addition: 912\
-This is Multiplication: 37932\
+This is Multiplication: 37932
 
 **Here, with the help of a variable, you don't need to repeat the line of code again and again, if you are writing multiple strings or lines code or operators.**
 
@@ -104,8 +104,8 @@ print(type(y))
 ```
 
 **OUTPUT OF DATA TYPE**\
-<class 'str'>\
-<class 'int'>\
+<class 'str'>
+<class 'int'>
 
 **Here <class> means the data type of the variable value.**
 
@@ -121,8 +121,8 @@ print(type(y))
 **iv-Keywords in Python: (not for use of variable name):**
 - False, class, Finally, return, None, def, continue, for, lambda, try, True, from, nonlocal, while, del, global, not, print, if, type.
 
-**v-Assign Multiple Values:**\
-In Python, you can assign values to multiple variables simultaneously in a single line.
+**v-Assign Multiple Values:**
+- In Python, you can assign values to multiple variables simultaneously in a single line.
 
 **Example # 01**
 ```
@@ -150,8 +150,8 @@ I like Fish.\
 You Like Mango.\
 They like to play.
 
-**vi-One Value to Multiple Variables:**\
-In Python, you can also assign the same value to multiple variables in a single line.
+**vi-One Value to Multiple Variables:**
+- In Python, you can also assign the same value to multiple variables in a single line.
 **Example # 01**
 ```
 x = y = z = "Tehreem"
@@ -180,7 +180,7 @@ Tehreem is five years old.\
 Tehreem is five years old.
 
 **vii-Output variables:**
-- **i)** In Python, the print() function is commonly used to display the values of variables.
+- **i)** In Python, the print() function is commonly used to display the values of variables.\
 **Example # 01**
 ```
 x = "Python is awesome."
@@ -211,7 +211,7 @@ print(x + y + z)
 **OUTPUT # 03**\
 Python is awesome
 - **iv)** Using + with Numbers. For numbers, the + operator performs addition:\
-**Example # 04**\
+**Example # 04**
 ```
 x = 5
 y = 10
