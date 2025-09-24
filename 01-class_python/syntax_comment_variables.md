@@ -107,7 +107,7 @@ print(type(y))
 <class 'int'>\
 **Here <class> means the data type of the variable value.**
 
-**iii-RULE TO ASSIGN A VARIABLE:**
+**iii-Rule to assign a variable:**
 - The variable should contain letters, numbers, or underscores.
 - Do not start with numbers.
 - Do not use special characters like:!, @, #, $, %, ^, &, *.
@@ -122,7 +122,7 @@ print(type(y))
 **v-Assign Multiple Values:**\
 In Python, you can assign values to multiple variables simultaneously in a single line.
 
-**Example # 01**\
+**Example # 01**
 ```
 a, b, c = "Potatoes", "Carrots", "Peas"
 print(a)
@@ -135,7 +135,7 @@ Potatoes\
 Carrots\
 Peas
 
-**Example # 02**\
+**Example # 02**
 ```
 f, g, h = "I like Fish.", "You Like Mango.", "They like to play."
 print(f)
@@ -150,7 +150,7 @@ They like to play.
 
 **vi-One Value to Multiple Variables:**\
 In Python, you can also assign the same value to multiple variables in a single line.
-
+**Example # 01**
 ```
 x = y = z = "Tehreem"
 print(x)
@@ -158,12 +158,12 @@ print(y)
 print(z)
 ```
 
-**OUTPUT # 03**\
+**OUTPUT # 01**\
 Tehreem\
 Tehreem\
 Tehreem
 
-**Example # 02**\
+**Example # 02**
 ```
 i= j= k= l= "Tehreem is five years old."
 print(i)
