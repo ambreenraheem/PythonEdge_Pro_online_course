@@ -278,7 +278,12 @@ print("What is your country and city Name? - Country Name:", country, ", City Na
 print("What is your CNIC Number: ", cnic_number)
 ```
 
-
+**OUTPUT EX: 02**\
+What is your Name? - First Name: Ambreen, Last Name: Abdul Raheem\
+How old are you? - Age: 40\
+What is your Course Name? - Course Name: PythonEdge_Pro\
+What is your country and city Name? - Country Name: Pakistan, City Name: Karachi\
+What is your CNIC Number:  124 421 7897 0
 
 
 
