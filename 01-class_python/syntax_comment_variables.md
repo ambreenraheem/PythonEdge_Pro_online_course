@@ -267,7 +267,7 @@ My name is Ambreen Abdul Raheem\
 I am  40 years old\
 I teach an online Python course, and the course name is  PythonEdge_Pro\
 I live in Pakistan, and my city's name is Karachi\
-My CNIC number is  124 421 7897 0\
+My CNIC number is  124 421 7897 0
 
 **Exercise: 02, for Practice:**
 ```
