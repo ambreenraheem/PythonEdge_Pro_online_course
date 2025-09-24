@@ -6,6 +6,7 @@ Date:20-September-2025
 
 ### 01 # Syntax:
 Python has a simple syntax similar to the English language.
+
 **- Execute Python Syntax**
 - As we learned in the previous page, Python syntax can be executed by writing directly in the Command Line:
 ```
@@ -19,7 +20,7 @@ C:\Users\Your Name>python myfile.py
 ```
 
 ### 02 # Comment:
-Comments can be used to explain Python code. Comments can be used to make the code more readable. Comments can be used to prevent execution when testing code.
+Comments can be used to explain Python code to other people and for you as well. Comments can be used to make the code more readable and understandable. Comments can be used to prevent execution when testing code.
 - Creating a Comment
 Comments start with a #, and Python will ignore them:
 
@@ -44,14 +45,16 @@ print("Cheers, Mate!")
 Variables are containers for storing data values.
 
 - Creating Variables
-Python has no command for declaring a variable.\
+Python does not have a command for declaring a variable.\
 A variable is created the moment you first assign a value to it.\
-You don’t have to assign a specific type when declaring variables, and their type can change after being assigned.
+You don’t have to assign a specific type when declaring variables, and their type can change after being assigned.\
+A variable could be in numbers or in a string as well.
+
 **Example # 01**
 ```
-x = "Ambreen"
-y = 40
-z = Karachi
+x = "Ambreen"   # Here "x" is a variable
+y = 40          # Here "y" is a variable
+z = Karachi     # Here "z" is a variable
 print(x)
 print(y)
 print(z)
@@ -88,6 +91,36 @@ print("This is Multiplication: ", h * i)
 ```
 **OUTPUT # 03**\
 This is Addition: 912\
-This is Multiplication: 37932
+This is Multiplication: 37932\
+**Here you don't need to repeat the line of code again and again, if you are writing multiple strings or lines code or operators.**
+
+**class/type of a variable:**
+To know which type of variable you have made, write the type, and it will show you the type or class of variable in the output.
+
+```
+print(type(x))
+print(type(y))
+```
+
+**OUTPUT OF DATA TYPE**\
+<class 'str'>
+<class 'int'>
+**Here <class> means the data type of the variable value.**
+
+**RULE TO ASSIGN A VARIABLE:**
+- The variable should contain letters, numbers, or underscores.
+- Do not start with numbers.
+- Do not use special characters like:!, @, #, $, %, ^, &, *.
+- Spaces are not allowed.
+- Do not use keywords used in functions like (break, mean, median, test, etc)
+- Short and descriptive.
+- Case sensitivity (lowercase, uppercase letters- [go for lowercase letters because it is easy to remember])
+
+**Keywords in Python: (not for use of variable name):**
+- False, class, Finally, return, None, def, continue, for, lambda, try, True, from, nonlocal, while, del, global, not, print, if, type.
+
+ 
+
+
 
 
