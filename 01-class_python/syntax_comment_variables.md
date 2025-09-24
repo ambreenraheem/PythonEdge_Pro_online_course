@@ -104,7 +104,7 @@ print(type(y))
 ```
 
 **OUTPUT OF DATA TYPE**\
-<class 'str'>
+<class 'str'>\
 <class 'int'>
 
 **Here <class> means the data type of the variable value.**
@@ -151,7 +151,7 @@ You Like Mango.\
 They like to play.
 
 **vi-One Value to Multiple Variables:**
-- In Python, you can also assign the same value to multiple variables in a single line.
+- In Python, you can also assign the same value to multiple variables in a single line.\
 **Example # 01**
 ```
 x = y = z = "Tehreem"
