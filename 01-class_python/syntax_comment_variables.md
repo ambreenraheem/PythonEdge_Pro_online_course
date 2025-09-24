@@ -242,7 +242,7 @@ print(x, y)
 **OUTPUT # 06**\
 5 John
 
-**Exercise for Practice:**\
+**Exercise: 01, for Practice:**
 ```
 first_name = "Ambreen"
 last_name = "Abdul Raheem"
@@ -255,17 +255,28 @@ course_name = "PythonEdge_Pro"
 ```
 **Now use these variables for proper output:**
 ```
-print("My name is: ",first_name," ",last_name)
-print("I am ", age, "years old.")
-print("I teach online Python course and course name is ", course_name)
-print("I live in ", country, "and my city name is ", city)
+print("My name is:",first_name," ",last_name)
+print("I am", age, "years old")
+print("I teach an online Python course, and the course name is ", course_name)
+print("I live in", country, "and my city's name is ", city)
 print("My CNIC number is ", cnic_number)
 ```
 
+**OUTPUT EX: 01**
+My name is Ambreen Abdul Raheem
+I am  40 years old.
+I teach an online Python course, and the course name is  PythonEdge_Pro
+I live in Pakistan, and my city's name is Karachi
+My CNIC number is  124 421 7897 0
 
-
-
-
+**Exercise: 02, for Practice:**
+```
+print("What is your Name? - First Name:", first_name, ",Last Name:", last_name)
+print("How old you? - Age:", age)
+print("What is your Course Name? - Course Nmae:", course_name)
+print("What is your country and city Name? - Country Name:", country, ", City Name:", city)
+print("What is your CNIC Number: ", cnic_number)
+```
 
 
 
