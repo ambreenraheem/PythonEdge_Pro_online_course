@@ -49,12 +49,15 @@ Variables are containers for storing data values.
 - A variable is created the moment you first assign a value to it.
 - You don’t have to assign a specific type when declaring variables, and their type can change after being assigned.
 - A variable could be in numbers or in a string as well.
+- Single or Double Quotes: for a string.
+- In Python, you can create string variables using either single quotes (') or double quotes ("). Both work the same way.
+- In Python, for an integer and a float, you don't need to use single quotes (') or double quotes (").
 
 **Example # 01**
 ```
-x = "Ambreen"   # Here, "x" is a variable
-y = 40          # Here, "y" is a variable
-z = "Karachi"   # Here, "z" is a variable
+x = "Ambreen"   # Here, "x" is a variable and the value is a string.
+y = 40          # Here, "y" is a variable and the value is an integer.
+z = "Karachi"   # Here, "z" is a variable and the value is a string.
 print(x)
 print(y)
 print(z)
@@ -239,17 +242,25 @@ print(x, y)
 **OUTPUT # 06**\
 5 John
 
-
-
-
-
-
-
-
-
-
-
-
+**Exercise for Practice:**\
+```
+first_name = "Ambreen"
+last_name = "Abdul Raheem"
+age = 40
+Occupation = "Freelancer and Python Instructor"
+city = "Karachi"
+country = "Pakistan"
+cnic_number = "124 421 7897 0"   # example CNIC number
+course_name = "PythonEdge_Pro"
+```
+**Now use these variables for proper output:**
+```
+print("My name is: ",first_name," ",last_name)
+print("I am ", age, "years old.")
+print("I teach online Python course and course name is ", course_name)
+print("I live in ", country, "and my city name is ", city)
+print("My CNIC number is ", cnic_number)
+```
 
 
 
