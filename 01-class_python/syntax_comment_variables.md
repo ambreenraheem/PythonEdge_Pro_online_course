@@ -179,7 +179,7 @@ Tehreem is five years old.\
 Tehreem is five years old.\
 Tehreem is five years old.
 
-**vii-Output variables:**\
+**vii-Output variables:**
 - **i)** In Python, the print() function is commonly used to display the values of variables.
 **Example # 01**
 ```
@@ -187,7 +187,7 @@ x = "Python is awesome."
 print(x)
 ```
 **OUTPUT # 01**\
-Python is awesome.\
+Python is awesome.
 - **ii)** Printing Multiple Variables with Commas. You can output multiple variables at once by separating them with commas inside print():\
 **Example # 02**
 ```
@@ -197,7 +197,7 @@ z = "awesome"
 print(x, y, z)
 ```
 **OUTPUT # 02**\
-Python is awesome\
+Python is awesome
 - **iii)** Using the + Operator for Strings. The + operator lets you concatenate (join) strings:\
 **Example # 03**
 ```
@@ -209,7 +209,7 @@ print(x + y + z)
 - ⚠️ Notice: spaces were added in "Python " and "is " to avoid the result becoming "Pythonisawesome".
 
 **OUTPUT # 03**\
-Python is awesome\
+Python is awesome
 - **iv)** Using + with Numbers. For numbers, the + operator performs addition:\
 **Example # 04**\
 ```
@@ -218,7 +218,7 @@ y = 10
 print(x + y)
 ```
 **OUTPUT # 04**\
-15\
+15
 - **v)** Mixing Strings and Numbers. If you try to combine a string and a number with +, Python will raise an error:\
 **Example # 05**
 ```
@@ -227,7 +227,7 @@ y = "John"
 print(x + y)
 ```
 **OUTPUT # 05**\
-❌ Error\
+❌ Error
 - **vi)** Best Practice: Use Commas. The recommended way is to separate variables with commas in print().\
 This even works with different data types:\
 **Example # 06**
@@ -237,7 +237,7 @@ y = "John"
 print(x, y)
 ```
 **OUTPUT # 06**\
-5 John\
+5 John
 
 
 
