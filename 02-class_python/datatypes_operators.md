@@ -10,12 +10,14 @@ Date:24-September-2025
 - Variables can store different types of data, and each type allows you to do different kinds of operations.
 - Python provides several built-in data types, grouped into categories:
 
-**1. Text Type:**\
+**1. Text Type:**
+
 **- i) str → String**
 ```
 print("Python is Amazing Programming Language.")
 ```
-**2. Numeric Types:**\
+**2. Numeric Types:**
+
 **- i) int → Integer Number**
 ```
 x = 45
@@ -53,33 +55,67 @@ print(my_tuple)
 my_range = range(6)
 print(my_range)
 ```
-4. Mapping Type
+**4. Mapping Type**
 
-dict
+**- dict:** dict → Key-value pairs
+```
+person = {"name": "Alice", "age": 25}
+print(person)
+```
+**5. Set Types**
 
-5. Set Types
+**- i) set:** set → Unordered, unique values
+```
+my_set = {1, 2, 3}
+print(my_set)
+```
+**- ii) frozenset:** frozenset → Immutable set
+```
+my_frozen = frozenset({1, 2, 3})
+print(my_frozen)
+```
+**6. Boolean Type** 
 
-set
-
-frozenset
-
-6. Boolean Type
-
-bool
-
-7. Binary Types
-
-bytes
-
-bytearray
-
-memoryview
+**bool:** bool → True or False
+```
+a = 10
+b = 5
+print(a > b)   # True
+print(a == b)  # False
+```
 
 ✅ These data types are available in Python by default (no need to import any library).
 
+### Python Operators:
+If you are writing numeric in Python, it's called (integer). And if an integer or float is working with +, -, x, we call them "Operators". Operators are used to perform operations on variables and values.
+In the example below, we use the + operator to add together two values:
+**Example**
+```
+print(15+56)  # Addition
+print(85-12)  # Subtract
+print(458*33) # Multiply
+```
+**Python groups operators into these categories:**
+- Arithmetic Operators
+- Assignment Operators
+- Comparison Operators
+- Logical Operators
+- Identity Operators
+- Membership Operators
+- Bitwise Operators
 
+**Arithmetic Operators**
 
+Used for basic math with numbers:
 
+- Operator	   Name	                Example
+-  +	         Addition	             x + y
+-  -	        Subtraction	           x - y
+-  *	       Multiplication	         x * y
+-  /         	Division	             x / y
+-  %	     Modulus (remainder)	     x % y
+-  **	     Exponentiation	           x ** y
+-  //	     Floor division            x // y
 
 
 
