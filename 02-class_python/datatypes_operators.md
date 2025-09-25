@@ -88,7 +88,7 @@ print(a == b)  # False
 
 ### Python Operators:
 If you are writing numeric in Python, it's called (integer). And if an integer or float is working with +, -, x, we call them "Operators". Operators are used to perform operations on variables and values.
-In the example below, we use the + operator to add together two values:
+In the example below, we use the + operator to add together two values:\
 **Example**
 ```
 print(15+56)  # Addition
@@ -107,16 +107,16 @@ print(458*33) # Multiply
 **Arithmetic Operators**
 
 Used for basic math with numbers:
-
-- Operator	   Name	                Example
--  +	         Addition	             x + y
--  -	        Subtraction	           x - y
--  *	       Multiplication	         x * y
--  /         	Division	             x / y
--  %	     Modulus (remainder)	     x % y
--  **	     Exponentiation	           x ** y
--  //	     Floor division            x // y
-
+```
+ Operator	   Name	                Example
+ +	         Addition	             x + y
+ -	        Subtraction	           x - y
+  *	       Multiplication	         x * y
+  /         	Division	             x / y
+  %	     Modulus (remainder)	     x % y
+ **	     Exponentiation	           x ** y
+ //	     Floor division            x // y
+```
 
 
 
