@@ -1,3 +1,11 @@
+Date:01-October-2025
+
+## Instructor: Ambreen Abdul Raheem
+### Professional Power BI Data Analyst And AI Agent Developer (Upwork Freelancer)
+
+[Watch "Ambreen The Data Analyst" on my YouTube Channel about Python](https://www.youtube.com/@AmbreenAbdulRaheem-y8m)
+
+
 ## 🚀 What is Google Colab (Colaboratory)?
 
 Google Colab is a free online platform provided by Google where you can write and run Python code in your browser.\
