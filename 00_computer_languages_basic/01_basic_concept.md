@@ -76,8 +76,8 @@ for fruit in fruits:
 ```
 **Output-01**
 
-I like apples
-I like bananas
+I like apples\
+I like bananas\
 I like mango
 
 Example 02- (script):
@@ -95,16 +95,17 @@ for number in numbers:
 ```
 **Output-02**
 
-1 is odd
-2 is even
-3 is odd
-4 is even
-5 is odd
-6 is even
-7 is odd
-8 is even
-9 is odd
-10 is even\
+1 is odd\
+2 is even\
+3 is odd\
+4 is even\
+5 is odd\
+6 is even\
+7 is odd\
+8 is even\
+9 is odd\
+10 is even
+
 **👉 This script quickly automates a boring task.**
 
 #### 🔹 Python as a Programming Language
