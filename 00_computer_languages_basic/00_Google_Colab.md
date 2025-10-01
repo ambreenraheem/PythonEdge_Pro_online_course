@@ -12,6 +12,9 @@ It is especially popular for data science, machine learning, and AI projects.
 - Pre-installed libraries – like NumPy, Pandas, TensorFlow, PyTorch, etc.
 - Collaboration – multiple people can work on the same notebook (like Google Docs).
 - GitHub - you can connect with your GitHub
+
+### Google Colab Tutorial
+[Watch Google Colab Tutorial for Beginners](https://www.youtube.com/watch?v=rsBiVxzmhG0)
  
 
 **🖥️ Example: Running Python in Colab**
