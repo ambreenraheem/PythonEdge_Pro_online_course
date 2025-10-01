@@ -13,7 +13,7 @@ This course is specially designed for students to learn Python from scratch to a
 
 ## 🎯 Course Structure:
 ### Part 1 – Python Learning (Basic → Advanced):
-- Introduction of Python
+- Introduction to Python
 - Installation and Learning Basics of Python
 - Objective-Oriented Programming
 -  Simple Fun Projects
@@ -67,3 +67,16 @@ It is used for:
 ```
 print("Hello, World!")
 ```
+### 👉 Use YouTube for Python learning
+- Free tutorials in English, Urdu, and Hindi are available for beginners.
+- Learn Python from the basics to the advanced level from my YouTube Channel as well
+
+[Watch "Ambreen The Data Analyst" for the Complete course on Python](https://www.youtube.com/@AmbreenAbdulRaheem-y8m)
+
+**Another Channel**
+
+
+[Watch "APNA COLLAGE" for why so many Coding Languages are created?](https://www.youtube.com/watch?v=5QUSeBAMjoo)
+
+[Watch "APNA COLLAGE" for Understanding Python Language](https://www.youtube.com/watch?v=t2_Q2BRzeEE&list=PLGjplNEQ1it8-0CmoljS5yeV-GlKSUEt0)
+
