@@ -49,14 +49,15 @@ Examples: C, C++, Java
 Examples: Python, JavaScript, PHP, Ruby, Bash
 
 **👉 Think of it like writing a shortcut or quick tool inside the house.**
-```
+
 | Feature       | Programming Language      | Scripting Language               |
 | ------------- | ------------------------- | -------------------------------- |
 | Execution | Compiled (before running) | Interpreted (runs line by line)  |
 | Usage     | Build big software & apps | Automate tasks, control software |
 | Speed     | Faster                    | Slower (but simpler)             |
 | Examples  | C, C++, Java              | Python, JavaScript, PHP          |
-```
+
+
 **🎯 Super Simple Trick to Remember**
 - Programming language = Build the car 🚗
 - Scripting language = Drive or control the car 🕹️
