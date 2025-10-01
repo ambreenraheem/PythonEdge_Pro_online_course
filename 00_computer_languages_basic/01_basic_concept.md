@@ -1,3 +1,12 @@
+Date:01-October-2025
+
+## Instructor: Ambreen Abdul Raheem
+### Professional Power BI Data Analyst And AI Agent Developer (Upwork Freelancer)
+
+
+[Watch "Ambreen The Data Analyst" on my YouTube Channel about Python](https://www.youtube.com/@AmbreenAbdulRaheem-y8m)
+
+
 ## 💻 What is a Computer Language?
 
 A computer language is a means by which humans can communicate with a computer.\
