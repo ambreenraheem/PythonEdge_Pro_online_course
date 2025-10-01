@@ -139,6 +139,15 @@ On the programming language side, Python is a powerful and structured language, 
 
 That’s why Python is called a general-purpose language → It can be both.
 
+[Watch "APNA COLLAGE" for why so many Coding Languages are created?](https://www.youtube.com/watch?v=5QUSeBAMjoo)
+
+[Watch "APNA COLLAGE" for understanding Python Language](https://www.youtube.com/watch?v=t2_Q2BRzeEE&list=PLGjplNEQ1it8-0CmoljS5yeV-GlKSUEt0)
+
+### 👉 Use YouTube for Python learning
+
+- Free tutorials in English, Urdu, and Hindi are available for beginners.
+
+- Many channels offer step-by-step Python projects (data analysis, automation, AI).
 
 
 
