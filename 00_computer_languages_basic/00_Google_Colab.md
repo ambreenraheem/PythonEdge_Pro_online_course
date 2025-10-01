@@ -171,14 +171,18 @@ Professionals: Share reproducible code with teams.
 
 **TPU**
 
-**👉 If you select CPU, Colab will give you Google’s Central Processing Unit for your code.
-👉 If you select GPU, Colab will give you Google’s Graphics Processing Unit for your code.
-👉 If you select TPU, Colab will give you Google’s Tensor Processing Unit for your code.**
+**👉 If you select CPU, Colab will give you Google’s Central Processing Unit for your code.**
+
+**👉 If you select GPU, Colab will give you Google’s Graphics Processing Unit for your code.**
+
+**👉 If you select TPU, Colab will give you Google’s Tensor Processing Unit for your code.**
 
 **🎯 Easy Way to Remember**
 
 **CPU = Brain of the computer (all-purpose, step by step).**
+
 **GPU = Muscle for graphics & parallel work.**
+
 **TPU = Google’s special AI chip (super-fast for ML).**
 
 
