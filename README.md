@@ -76,7 +76,7 @@ print("Hello, World!")
 **Another Channel**
 
 
-[Watch "APNA COLLAGE" for why so many Coding Languages are created?](https://www.youtube.com/watch?v=5QUSeBAMjoo)
+[Watch "APNA COLLEGE" for why so many Coding Languages are created?](https://www.youtube.com/watch?v=5QUSeBAMjoo)
 
-[Watch "APNA COLLAGE" for Understanding Python Language](https://www.youtube.com/watch?v=t2_Q2BRzeEE&list=PLGjplNEQ1it8-0CmoljS5yeV-GlKSUEt0)
+[Watch "APNA COLLEGE" for Understanding Python Language](https://www.youtube.com/watch?v=t2_Q2BRzeEE&list=PLGjplNEQ1it8-0CmoljS5yeV-GlKSUEt0)
 
