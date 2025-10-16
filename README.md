@@ -1,4 +1,4 @@
-![coursepicture](<img width="1587" height="2245" alt="White And Blue Online Course Poster" src="https://github.com/user-attachments/assets/599b7370-0aac-489d-a129-e59bba49bb41" />)
+![(<img width="1587" height="2245" alt="White And Blue Online Course Poster" src="https://github.com/user-attachments/assets/599b7370-0aac-489d-a129-e59bba49bb41" />)]
 
 
 
