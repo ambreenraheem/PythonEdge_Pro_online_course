@@ -1,4 +1,5 @@
-!<img width="150" height="212" alt="White And Blue Online Course Poster (1)" src="https://github.com/user-attachments/assets/1a0def45-ebe6-4bdb-8b35-aeca717d5564" />
+<img width="400" height="566" alt="White And Blue Online Course Poster (2)" src="https://github.com/user-attachments/assets/fbcc1703-69e6-4865-a9bf-1003bf2dba86" />
+
 
 
 
