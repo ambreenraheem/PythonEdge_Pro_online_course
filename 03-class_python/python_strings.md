@@ -3,7 +3,7 @@ Date:28-September-2025
 ## Instructor: Ambreen Abdul Raheem
 ### Professional Power BI Data Analyst And AI Agent Developer (Upwork Freelancer)
 
-#### 🔤 What is a string?\
+#### 🔤 What is a string?
 A string is just text inside quotes.
 - It can have letters, numbers, or symbols.
 - Use single ' or double " quotes.
@@ -34,6 +34,62 @@ I am teaching Python from the basic to the advanced level.
 I am a Data Analyst.'''
 print(intro)
 ```
+#### F-Strings in Python
+
+F-Strings were introduced in Python 3.6 and are now the recommended way to format strings.
+
+To make an f-string, just put the letter f before your string and use curly brackets {} inside the string to insert variables, expressions, or operations.
+**Example 1 – Basic F-String**\
+```
+age = 36
+txt = f"My name is John, I am {age}"
+print(txt)
+```
+
+**Placeholders and Modifiers**\
+Inside the curly brackets, you can put:
+
+- Variables
+- Math operations
+- Functions
+- Or formatting modifiers
+
+**Example 2 – Using a Variable**\
+```
+price = 59
+txt = f"The price is {price} dollars"
+print(txt)
+```
+
+**Example 3 – Using a Modifier**\
+You can add a modifier after a colon : to format the value.\
+For example, .2f means “show as a number with 2 decimal places”.
+```
+price = 59
+txt = f"The price is {price:.2f} dollars"
+print(txt)
+```
+
+**Example 4 – Doing Math Inside an F-String**\
+You can even perform calculations directly inside {}:
+```
+txt = f"The price is {20 * 59} dollars"
+print(txt)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
