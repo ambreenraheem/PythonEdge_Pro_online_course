@@ -13,14 +13,14 @@ name = 'ambreen'
 greetings = "Hello "
 print(greetings,name)
 ```
-Quotes Inside Quotes\
+**Quotes Inside Quotes**\
 You can use quotes inside a string, as long as they don't match the quotes surrounding the string:
 ```
 print("It's my car.")
 print("I am working with 'Ahmed'.")
 print('"Tehreem" is my friend.')
 ```
-Multiline Strings\
+**Multiline Strings**\
 You can assign a multiline string to a variable by using three quotes or three single quotes and just print that variable:
 ```
 intro = """Hi, this is ambreen.
@@ -39,7 +39,7 @@ print(intro)
 F-Strings were introduced in Python 3.6 and are now the recommended way to format strings.
 
 To make an f-string, just put the letter f before your string and use curly brackets {} inside the string to insert variables, expressions, or operations.
-**Example 1 – Basic F-String**\
+**Example 1 – Basic F-String**
 ```
 age = 36
 txt = f"My name is John, I am {age}"
@@ -54,7 +54,7 @@ Inside the curly brackets, you can put:
 - Functions
 - Or formatting modifiers
 
-**Example 2 – Using a Variable**\
+**Example 2 – Using a Variable**
 ```
 price = 59
 txt = f"The price is {price} dollars"
