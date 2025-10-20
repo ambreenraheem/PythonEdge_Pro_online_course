@@ -73,12 +73,12 @@ Lists in Python are mutable, which means you can change their elements after the
 ```
 fruits = ["apple", "banana", "cherry"]
 fruits[-3] = "watermelon"   # Replace "apple" with "watermelon"
-print("I modify my List", fruits)
+print("I modify my List of fruits:", fruits)
 ```
 ```
 students = ["Faiza", "Ahmed", "Ali"]
 students[-2] = "Ambreen"
-print("I modify my List:",students)
+print("I modify my List of students:",students)
 ```
 
 ### 2. Common List Methods
@@ -92,23 +92,23 @@ You can add elements to a list using append() and extend().
 fruits = ["watermelon", "banana", "cherry"]
 
 fruits.append("mango")  # Adds a single item to the end
-print("Adds a single item to the end", fruits)
+print("Adds a single item to the end:", fruits)
 ```
 ```
 students = ["Faiza", "Ahmed", "Ali"]
 
 students.append("Usman")
-print("Adds a single item to the end", students)
+print("Adds a single item to the end:", students)
 ```
 
 **Expend: To add multiple elements at once, use extend():**
 ```
 fruits.extend(["grape", "kiwi"])
-print(I extend two more fruits", fruits)
+print("I extend two more fruits:", fruits)
 ```
 ```
 students.extend(["Fazal", "Raheem"])
-print("I extend two more students name", students)
+print("I extend two more students name:", students)
 ```
 **🔹 Removing Elements**\
 Python provides two primary methods for removing elements from a list: remove() and pop().\
@@ -146,12 +146,12 @@ If no index is provided, it removes the last item.
 ```
 deleted = fruits.pop(1)  # Removes the element at index 1
 print("Deleted element:", deleted)
-print("I deleted one item with 'pop() method'", fruits)
+print("I deleted one item (banana) from the list of fruits with 'pop() method'", fruits)
 ```
 ```
 deleted = students.pop(2)  # Removes the element at index 1
 print("Deleted element:", deleted)
-print("I deleted one item with 'pop() method'", students)
+print("I deleted one item (Ali) from the list of students with 'pop() method'", students)
 ```
 
 **🔹 Sorting a List**\
@@ -180,13 +180,13 @@ print("I sort the list of fruits name by string length:", words)
 ```
 words = ["apple", "kiwi", "banana"]
 words.sort(key=lambda word: word[-1])
-print("I sort the list of fruits name by string length in descending order:"words)
+print("I sort the list of fruits name by string length in descending order:", words)
 ```
 **5. Reverse the List**
 ```
 numbers = [1, 2, 5, 7, 10]
 numbers.reverse()
-print(numbers)
+print("Reverse the list of numbers:", numbers)
 ```
 **3. Iterating Over Lists**\
 You can use a for loop to go through each item in a list and perform operations on them.
