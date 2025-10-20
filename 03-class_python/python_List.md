@@ -31,7 +31,7 @@ fruit_list = ["apple", "banana", "cherry", "apple", "cherry"]
 print(fruit_list)
 ```
 
-**🔹 List Length**\
+**List Length**\
 To find out how many items are in a list, use the len() function.
 
 **03 # Example:**
@@ -46,14 +46,48 @@ List elements can be of any data type — strings, integers, booleans, etc.
 ```
 list1 = ["apple", "banana", "cherry"]      # String list
 list2 = [1, 5, 7, 9, 3]                   # Integer list
-list3 = [True, False, False]              # Boolean list
+list3 = [True, False, False]             # Boolean list
+list4 = ["hello", 25, True, 5.6]         # Mixed list (You can even mix different data types in a single list)
+print("Fruits:",list1)
+print("Numbers:",list2)
+print("Booleans:",list3)
+print("Mixed:", list4)
 ```
 
-You can even mix different data types in a single list:
+**🔹Accessing List Elements**\
+You can access items in a list using indexing.\
+Positive indexing starts from 0 (the first element).\
+Negative indexing starts from -1 (the last element) and moves backward.
+
+**05 # Example:**
 ```
-mixed_list = ["hello", 25, True, 5.6]
-print(mixed_list)
+fruits = ["apple", "banana", "cherry"]
+print(fruits[0])    # Output: apple  → first element
+print(fruits[-3])   # Output: apple  → accessed from the end
 ```
+
+**🔹Modifying Lists**\
+Lists in Python are mutable, which means you can change their elements after the list has been created.
+
+**06 # Example:**
+```
+fruits = ["apple", "banana", "cherry"]
+fruits[-3] = "watermelon"   # Replace "apple" with "watermelon"
+print(fruits)
+```
+```
+students = ["Faiza", "Ahmed", "Ali"]
+students[-2] = "Ambreen"
+print("I modify my List:",students)
+```
+
+
+
+
+
+
+
+
 
 
 
