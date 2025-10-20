@@ -296,7 +296,7 @@ You can also go through all the items in a list using a while loop.
 3. Keep looping until you reach the end of the list.
 4. Don’t forget to increase the index by 1 each time — or the loop will never stop!
 
-**Example – Loop Through a List Using While**\
+**Example – Loop Through a List Using While**
 ```
 fruits = ["apple", "banana", "cherry"]
 i = 0
