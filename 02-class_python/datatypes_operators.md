@@ -4,6 +4,8 @@ Date:24-September-2025
 ### Professional Power BI Data Analyst And AI Agent Developer (Upwork Freelancer)
 
 ### 04 # Python Data Types:
+![datatype](https://github.com/user-attachments/assets/18ab9e66-03fa-419b-8fd8-7fb478a8e5ef)
+
 ✅ Python is dynamically typed, meaning you don’t need to declare a variable’s type—it’s determined automatically when you assign a value.\
 **i) # Built-in Data Types in Python:**
 - In programming, a data type is an important concept.
