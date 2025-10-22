@@ -296,13 +296,15 @@ for x in myset:
 
 **Overview of Joining Methods**
 
-| Method                       | Description                                                    |                                   
-| ---------------------------- | -------------------------------------------------------------- | -
+| Method                       | Description                                                    |
+| ---------------------------- | -------------------------------------------------------------- | 
 | **`union()` / `**            | Combines all items from both sets                              |
-| **`update()`**               | Adds items from one set to another (modifies the original set) |           
-| **`intersection()`**         | Keeps only the items found in both sets                        |                
-| **`difference()`**           | Keeps items from the first set that aren’t in the other set(s) |                 
-| **`symmetric_difference()`** | Keeps all items *except* those that appear in both sets        |     
+| **`update()`**               | Adds items from one set to another (modifies the original set) |
+| **`intersection()`**         | Keeps only the items found in both sets                        |
+| **`difference()`**           | Keeps items from the first set that aren’t in the other set(s) | 
+| **`symmetric_difference()`** |**Keeps all items *except* those that appear in both sets**     |
+
+ 
 
 **1. Union**
 
