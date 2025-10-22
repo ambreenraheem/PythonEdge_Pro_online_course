@@ -295,6 +295,7 @@ for x in myset:
 - Each method serves a specific purpose, depending on how you want to handle duplicates.
 
 **Overview of Joining Methods**
+
 | Method                       | Description                                                    |                                   
 | ---------------------------- | -------------------------------------------------------------- | -
 | **`union()` / `**            | Combines all items from both sets                              |
