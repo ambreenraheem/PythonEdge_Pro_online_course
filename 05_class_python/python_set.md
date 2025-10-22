@@ -499,7 +499,7 @@ Even though frozenset objects are immutable, they still support all non-modifyin
 | `issubset()`             | `<=` or `<` | Returns True if one frozenset is a subset of another   | 
 | `issuperset()`           | `>=` or `>` | Returns True if one frozenset is a superset of another | 
 | `symmetric_difference()` | `^`         | Returns elements that are not common                   |                  
-| `union()`                | ``|``       | Combines all elements from both frozensets             |
+| `union()`                | **|**       | Combines all elements from both frozensets             |
 
 **🧠 Example:**
 ```
@@ -534,8 +534,8 @@ print(a.symmetric_difference(b))  # frozenset({1, 2, 4, 5})
 | `remove()`                      | —            | Removes a specified element (raises an error if it doesn’t exist)     | 
 | `symmetric_difference()`        | `^`          | Returns elements that are in either set, but not in both              |  
 | `symmetric_difference_update()` | `^=`         | Keeps only elements not found in both sets (updates the original set) | 
-| `union()`                       | ``|``        | Combines all elements from both sets (returns a new set)              |
-| `update()`                      | ``|=``       | Adds elements from another set (updates the original set)             |
+| `union()`                       | **|**        | Combines all elements from both sets (returns a new set)              |
+| `update()`                      | **|=**       | Adds elements from another set (updates the original set)             |
 
 
 
