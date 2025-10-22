@@ -20,7 +20,7 @@ You can create a dictionary using curly braces {} with key–value pairs separat
 # Syntax:
 dictionary = {key1: value1, key2: value2, ...}
 ```
-**Example. 03**
+**Example. 02**
 ```
 # Creating a dictionary with personal details
 person = {
@@ -31,6 +31,7 @@ person = {
 print(person)
 ```
 You can also create a dictionary using the dict() constructor:
+
 **Example. 04**
 ```
 my_dict = dict(name="John", age=36, country="Norway")
@@ -54,7 +55,7 @@ print(person)
 ```
 
 **5. Deleting Items**\
-You can remove elements using del, pop(), or clear().
+You can remove elements using the del, pop(), or clear() methods.
 ```
 # Remove specific key
 del person["city"]
@@ -106,6 +107,8 @@ for x, obj in myfamily.items():
   for y in obj:
     print(y + ':', obj[y])
 ```
+**We will learn more about loops in the "Loop Chapter", how they work, and why it is important.**
+
 
 **8. Nested Dictionaries**\
 A dictionary can contain another dictionary inside it.
@@ -132,6 +135,118 @@ print(child1)
 print(child2)
 print(child3)
 ```
+
+**9. Copying a Dictionary in Python**\
+You cannot copy a dictionary simply by writing dict2 = dict1.\
+This only creates a reference to the original dictionary, meaning any changes made to dict1 will also affect dict2.
+
+To create an actual independent copy, you can use one of the following methods:\
+**✅ Method 1: Using the copy() Method**
+
+The built-in copy() method creates a shallow copy of the dictionary.
+
+**1. Example:**
+```
+thisdict = {
+    "brand": "Ford",
+    "model": "Mustang",
+    "year": 1964
+}
+
+mydict = thisdict.copy()
+print(mydict)
+```
+
+**✅ Method 2: Using the dict() Constructor**
+
+You can also use the dict() function to make a copy of an existing dictionary.
+
+**2. Example:**
+```
+thisdict = {
+    "brand": "Ford",
+    "model": "Mustang",
+    "year": 1964
+}
+
+mydict = dict(thisdict)
+print(mydict)
+```
+
+**💡 Tip: Both copy() and dict() create shallow copies.**\
+If your dictionary contains nested dictionaries and you want to duplicate them as well, use the deepcopy() function from the copy module:
+```
+import copy
+mydict = copy.deepcopy(thisdict)
+```
+**01. Practical Examples**\
+Here are two practical examples to solidify these concepts.
+
+**Example 1: Building a Phonebook**
+```
+# Create a phonebook
+phonebook: dict = {
+    "Abid": "123-456-7890",
+    "Bbilal": "987-654-3210",
+    "Chaudry": "555-555-5555",
+    "Daniyal": "458-582-9999"
+}
+
+# Add a new contact
+phonebook["Ehsan"] = "022-525-6444"
+
+# Search for a contact
+name: str = input("Enter a name to search: ")
+if name in phonebook:
+    print(f"{name}'s phone number is {phonebook[name]}.")
+else:
+    print(f"{name} is not in the phonebook.")
+```     
+**10. Dictionary Comprehensions in Python**
+
+Dictionary comprehensions offer a concise and elegant way to create dictionaries.\
+They are similar to list comprehensions, but instead of creating lists, they generate key–value pairs.
+
+**✅ Basic Syntax**\
+{key_expression: value_expression for item in iterable if condition}
+
+This syntax allows you to loop through an iterable, apply a condition (optional), and construct key–value pairs dynamically.
+
+**✅ Example 1: Doubling Dictionary Values**
+```
+original_dict = {'a': 1, 'b': 2, 'c': 3}
+print("original_dict =", original_dict)
+
+doubled_dict = {k: v * 2 for k, v in original_dict.items()}
+print("doubled_dict  =", doubled_dict)
+```
+
+**🧠 Practice Exercise**
+
+Create a dictionary comprehension that converts a list of temperatures in Celsius to Fahrenheit.\
+Use the formula:
+**Example:**
+```
+celsius_temps = [0, 10, 20, 30, 40]
+
+fahrenheit_temps = {str(c) + "c": str((c * 9/5) + 32) + "f" for c in celsius_temps}
+print(fahrenheit_temps)
+```
+
+**💡 Tip:**\
+**Dictionary comprehensions are great for transforming data, filtering items, or generating dictionaries from lists — all in a single, readable line of code.**
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
