@@ -499,7 +499,7 @@ Even though frozenset objects are immutable, they still support all non-modifyin
 | `issubset()`             | `<=` or `<` | Returns True if one frozenset is a subset of another   | 
 | `issuperset()`           | `>=` or `>` | Returns True if one frozenset is a superset of another | 
 | `symmetric_difference()` | `^`         | Returns elements that are not common                   |                  
-| `union()`                | -|-         | Combines all elements from both frozensets             |
+| `union()- |`             |             | Combines all elements from both frozensets             |
 
 **🧠 Example:**
 ```
