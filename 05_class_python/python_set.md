@@ -490,16 +490,16 @@ print(type(x))
 
 Even though frozenset objects are immutable, they still support all non-modifying set operations.
 
-| Method                   | Shortcut    | Description                                            |
-| ------------------------ | ----------- | ------------------------------------------------------ | 
-| `copy()`                 | —           | Returns a shallow copy                                 |  
-| `difference()`           | `-`         | Returns elements in one frozenset but not the other    | 
-| `intersection()`         | `&`         | Returns common elements between frozensets             |  
-| `isdisjoint()`           | —           | Returns True if no common elements                     |  
-| `issubset()`             | `<=` or `<` | Returns True if one frozenset is a subset of another   | 
-| `issuperset()`           | `>=` or `>` | Returns True if one frozenset is a superset of another | 
-| `symmetric_difference()` | `^`         | Returns elements that are not common                   |                  
-| `union()- |`             |             | Combines all elements from both frozensets             |
+| Method                   | Description                                            |
+| ------------------------ | ------------------------------------------------------ | 
+| `copy()`                 | Returns a shallow copy                                 |  
+| `difference()`           | Returns elements in one frozenset but not the other    | 
+| `intersection()`         | Returns common elements between frozensets             |  
+| `isdisjoint()`           | Returns True if no common elements                     |  
+| `issubset()`             | Returns True if one frozenset is a subset of another   | 
+| `issuperset()`           | Returns True if one frozenset is a superset of another | 
+| `symmetric_difference()` | Returns elements that are not common                   |                  
+| `union()`                | Combines all elements from both frozensets             |
 
 **🧠 Example:**
 ```
@@ -517,25 +517,25 @@ print(a.symmetric_difference(b))  # frozenset({1, 2, 4, 5})
 - These methods help you add, remove, copy, and compare elements easily.
 **🧩 List of Set Methods**
 
-| **Method**                      | **Shortcut** | **Description**                                                       |
-| ------------------------------- | ------------ | --------------------------------------------------------------------- | 
-| `add()`                         | —            | Adds an element to the set                                            | 
-| `clear()`                       | —            | Removes all elements from the set                                     |
-| `copy()`                        | —            | Returns a copy of the set                                             |
-| `difference()`                  | `-`          | Returns elements that are in one set but not in another               | 
-| `difference_update()`           | `-=`         | Removes elements found in another specified set                       | 
-| `discard()`                     | —            | Removes a specified element (no error if element doesn’t exist)       |
-| `intersection()`                | `&`          | Returns only elements found in both sets                              |
-| `intersection_update()`         | `&=`         | Keeps only items present in both sets (changes the original set)      |
-| `isdisjoint()`                  | —            | Returns True if two sets have no elements in common                   |
-| `issubset()`                    | `<=` or `<`  | Returns True if all elements of this set are present in another set   | 
-| `issuperset()`                  | `>=` or `>`  | Returns True if this set contains all elements of another set         |
-| `pop()`                         | —            | Removes and returns a random element from the set                     |
-| `remove()`                      | —            | Removes a specified element (raises an error if it doesn’t exist)     | 
-| `symmetric_difference()`        | `^`          | Returns elements that are in either set, but not in both              |  
-| `symmetric_difference_update()` | `^=`         | Keeps only elements not found in both sets (updates the original set) | 
-| `union()`                       | **|**        | Combines all elements from both sets (returns a new set)              |
-| `update()`                      | **|=**       | Adds elements from another set (updates the original set)             |
+| **Method**                      | **Description**                                                       |
+| ------------------------------- | --------------------------------------------------------------------- | 
+| `add()`                         | Adds an element to the set                                            | 
+| `clear()`                       | Removes all elements from the set                                     |
+| `copy()`                        | Returns a copy of the set                                             |
+| `difference()`                  | Returns elements that are in one set but not in another               | 
+| `difference_update()`           | Removes elements found in another specified set                       | 
+| `discard()`                     | Removes a specified element (no error if element doesn’t exist)       |
+| `intersection()`                | Returns only elements found in both sets                              |
+| `intersection_update()`         | Keeps only items present in both sets (changes the original set)      |
+| `isdisjoint()`                  | Returns True if two sets have no elements in common                   |
+| `issubset()`                    | Returns True if all elements of this set are present in another set   | 
+| `issuperset()`                  | Returns True if this set contains all elements of another set         |
+| `pop()`                         | Removes and returns a random element from the set                     |
+| `remove()`                      | Removes a specified element (raises an error if it doesn’t exist)     | 
+| `symmetric_difference()`        | Returns elements that are in either set, but not in both              |  
+| `symmetric_difference_update()` | Keeps only elements not found in both sets (updates the original set) | 
+| `union()`                       | Combines all elements from both sets (returns a new set)              |
+| `update()`                      | Adds elements from another set (updates the original set)             |
 
 
 
