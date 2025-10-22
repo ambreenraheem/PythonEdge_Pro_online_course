@@ -224,7 +224,7 @@ print("doubled_dict  =", doubled_dict)
 **🧠 Practice Exercise**
 
 Create a dictionary comprehension that converts a list of temperatures in Celsius to Fahrenheit.\
-Use the formula:
+Use the formula:\
 **Example:**
 ```
 celsius_temps = [0, 10, 20, 30, 40]
