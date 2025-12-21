@@ -8,6 +8,7 @@ Date: 20-December-2025
 
 The input() function allows your program to receive data from the user.\
 It displays a prompt message and waits for the user to type something and press Enter.
+
 **Basic Syntax**
 ```
 variable = input("Prompt message: ")
@@ -20,6 +21,7 @@ variable = input("Prompt message: ")
 
 #### Data Types
 String Input (Default)
+
 **Example:01**
 ```
 name = input("Enter your name: ")
@@ -27,6 +29,7 @@ print(name)  # Returns as string
 print(type(name))  # <class 'str'>
 ```
 **Converting to Integer**
+
 **Example:02**
 ```
 age = int(input("Enter your age: "))
@@ -34,6 +37,7 @@ print(age)  # Returns as integer
 print(type(age))  # <class 'int'>
 ```
 **Converting to Float**
+
 **Example:03**
 ```
 height = float(input("Enter your height (m): "))
@@ -61,6 +65,7 @@ print(f"Total cost: ${total:.2f}")
 ```
 #### What are Conditional Statements?
 Conditional statements allow your program to make decisions and execute different code based on different conditions. They control the flow of your program.
+
 **The Three Types:**
 
   01. Statement: "if", Purpose:	"Executes code if a condition is **True**"
@@ -69,7 +74,7 @@ Conditional statements allow your program to make decisions and execute differen
 
 **Example:01**
 ```
-age = input("Enter your age?")
+age = int(input("Enter your age?"))
 
 if age >= 18:
     print("You are an adult")
