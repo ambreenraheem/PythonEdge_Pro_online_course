@@ -231,5 +231,87 @@ It always comes at the end.
 
 Only one else is allowed in an if statement.
 
+###### Example 1: Age-Based School Admission
 
+Situation:
+
+Age 5–10 → Primary School
+
+Age 11–15 → Middle School
+
+Otherwise → Not eligible
+```
+age = int(input("Enter student age: "))
+
+if age >= 5 and age <= 10:
+    print("Admission granted in Primary School")
+elif age >= 11 and age <= 15:
+    print("Admission granted in Middle School")
+else:
+    print("Not eligible for admission")
+```
+###### Example 2: Admission Based on Marks
+
+Situation:
+
+Marks ≥ 60 → Admission approved
+
+Marks < 60 → Admission rejected
+```
+marks = int(input("Enter student marks: "))
+
+if marks >= 60:
+    print("Admission approved")
+else:
+    print("Admission rejected")
+```
+###### Example 3: Class Selection Form
+
+Situation:
+
+Class 1 → Junior Section
+
+Class 5 → Primary Section
+
+Class 9 → Secondary Section
+
+Other → Invalid class
+```
+class_no = int(input("Enter class number: "))
+
+if class_no == 1:
+    print("Junior Section")
+elif class_no == 5:
+    print("Primary Section")
+elif class_no == 9:
+    print("Secondary Section")
+else:
+    print("Invalid class selection")
+```
+###### Example 4: Documents Check (Simple)
+
+Situation:
+
+If documents submitted → Form accepted
+
+Else → Form rejected
+```
+documents = input("Are all documents submitted? (yes/no): ")
+
+if documents == "yes":
+    print("Admission form accepted")
+else:
+    print("Admission form rejected")
+```
+###### 🧠 Real-Life Logic
+
+Schools also use conditions:
+
+✔ Age check
+
+✔ Marks check
+
+✔ Documents check
+
+That’s exactly what if, elif, and else do in Python 😊
 
