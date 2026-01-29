@@ -1,8 +1,13 @@
+Date: 12-January-2026
+
+### Instructor: Ambreen Abdul Raheem
+### Professional Power BI Data Analyst And AI Agent Developer (Upwork Freelancer)
+
 ### Python Conditions and If Statements
-Date" 01-January-2026
-Python uses conditions to make decisions.
-A condition checks whether something is True or False.
-Common Conditions in Python
+
+- Python uses conditions to make decisions.
+- A condition checks whether something is True or False.
+- Common Conditions in Python
 
 - Equal to: ==
 - Not equal to: !=
