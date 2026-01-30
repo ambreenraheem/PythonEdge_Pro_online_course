@@ -98,11 +98,13 @@ print("\nUsing range(0, 10, 2):")
 for num in range(0, 10, 2):
     print(num)
 ```
+
 ```
 # Example: 03.b- range(5, 0, -1) will count backwards from 5, 4, 3, 2, 1
 print("\nUsing range(5, 0, -1) (counting backwards):")
 for num in range(5, 0, -1):
     print(num)
+```
 
 **The break Statement**\
 The break statement is used to terminate the loop entirely. When break is encountered inside a loop (either for or while), the loop is immediately exited, and program control resumes at the statement immediately following the loop. It's often used when an external condition is met or a specific item is found within the loop.
