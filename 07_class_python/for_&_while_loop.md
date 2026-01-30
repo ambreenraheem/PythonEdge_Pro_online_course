@@ -292,8 +292,9 @@ while i <= 3:  # Outer loop for rows
 
 print("Multiplication table complete.")
 ```
+**It helps creating multiplication tables.**
 
-**This example shows how to use nested loops to process data stored in a list where each element is a dictionary.**
+**01-This example shows how to use nested loops to process data stored in a list where each element is a dictionary.**
 
 **In this example:**
 - The outer for loop iterates through the students list. In each iteration, student is a dictionary containing information for one student.
@@ -318,7 +319,7 @@ for student in students:  # Outer loop iterates through each student dictionary 
         print(f"    - {subject.capitalize()}: {grade}")
 ```
 
-**This example demonstrates how to use nested loops to list items under different categories, where the categories themselves are stored in a list of dictionaries.**
+**02-This example demonstrates how to use nested loops to list items under different categories, where the categories themselves are stored in a list of dictionaries.**
 
 **In this example:**
 - The outer for loop iterates through the categories list. In each iteration, category is a dictionary with a 'name' and an 'items' key.
