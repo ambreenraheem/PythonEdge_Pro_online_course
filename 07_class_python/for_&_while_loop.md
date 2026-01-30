@@ -62,17 +62,8 @@ The `range()` function is often used in `for` loops in Python to generate a sequ
 1.  **range(stop)**: Generates numbers from `0` up to (but not including) `stop`. 
     *Example: range(5) will produce `0, 1, 2, 3, 4`.
 
-2.  **range(start, stop)**: Generates numbers from `start` up to (but not including) `stop`. 
-    *Example: range(1, 11) will produce `1, 2, 3, 4, 5, 6, 7, 8, 9, 10`. This is what we used in the multiplication table example.
-
-3.  **range(start, stop, step)**: Generates numbers from `start` up to (but not including) `stop`, incrementing by `step` each time.
-    *Example: `range(0, 10, 2)` will produce `0, 2, 4, 6, 8`.
-
-In the multiplication table, `for i in range(1, 11):` means that the loop variable `i` will take on values from `1` up to `10`, allowing us to calculate `N * 1`, `N * 2`, ..., `N * 10`.
-
-# Example: range(5) will count from 0, 1, 2, 3, 4
 ```
-# Example # 01
+# Example # 01- range(5) will count from 0, 1, 2, 3, 4
 print("Using range(5):")
 for num in range(5):
     print(num)
@@ -84,10 +75,69 @@ for i in range(0, n):
     print(i)
 ```
 
+2.  **range(start, stop)**: Generates numbers from `start` up to (but not including) `stop`. 
+    *Example: range(1, 11) will produce `1, 2, 3, 4, 5, 6, 7, 8, 9, 10`. This is what we used in the multiplication table example.
 
+In the multiplication table, `for i in range(1, 11):` means that the loop variable `i` will take on values from `1` up to `10`, allowing us to calculate `N * 1`, `N * 2`, ..., `N * 10`.
 
+```
+# Example: 02- Multiplication Table
 
+N = int(input("Enter the number for which you want the multiplication table: "))
+print(f"\nMultiplication Table for {N}:")
+for i in range(1, 11): # Loop from 1 to 10 (inclusive)
+    product = N * i
+    print(f"{N} x {i} = {product}")
+```
 
+3.  **range(start, stop, step)**: Generates numbers from `start` up to (but not including) `stop`, incrementing by `step` each time.
+    *Example: `range(0, 10, 2)` will produce `0, 2, 4, 6, 8`.
+```
+# Example: 03.a- range(0, 10, 2) will count from 0, 2, 4, 6, 8
+print("\nUsing range(0, 10, 2):")
+for num in range(0, 10, 2):
+    print(num)
+```
+```
+# Example: 03.b- range(5, 0, -1) will count backwards from 5, 4, 3, 2, 1
+print("\nUsing range(5, 0, -1) (counting backwards):")
+for num in range(5, 0, -1):
+    print(num)
+
+**The break Statement**\
+The break statement is used to terminate the loop entirely. When break is encountered inside a loop (either for or while), the loop is immediately exited, and program control resumes at the statement immediately following the loop. It's often used when an external condition is met or a specific item is found within the loop.
+
+```
+# Example: Using 'break' to stop a loop when a condition is met
+print("Counting from 1 to 10, but stopping at 5:")
+for i in range(1, 11):
+    if i == 5:
+        print(f"Found {i}! Breaking the loop.")
+        break # Exit the loop when i is 5
+    print(i)
+
+print("Loop finished.")
+```
+
+### Break in List
+```
+fruits = ["apple", "banana", "cherry", "date", "fig"]
+search_item = "cherry"
+found = False
+
+print(f"Searching for '{search_item}' in the list: {fruits}")
+for fruit in fruits:
+    print(f"Checking: {fruit}")
+    if fruit == search_item:
+        print(f"Found '{search_item}'! Stopping the search.")
+        found = True
+        break
+
+if found:
+    print("Search successful.")
+else:
+    print("Item not found.")
+```
 
 
 
