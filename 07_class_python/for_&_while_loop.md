@@ -148,7 +148,7 @@ else:
 
 **Example:02**
 ```
-Exit the loop when x is "banana":
+# Exit the loop when x is "banana":
 
 fruits = ["apple","apricot", "banana", "cherry"]
 for x in fruits:
@@ -159,7 +159,7 @@ for x in fruits:
 
 **Examole:03**
 ```
-Exit the loop when x is "banana", but this time the break comes before the print:
+# Exit the loop when x is "banana", but this time the break comes before the print:
 
 fruits = ["apple", "apricot", "banana", "cherry"]
 for x in fruits:
@@ -202,8 +202,7 @@ print("Loop finished.")
 ```
 
 ```
-# Example
-Do not print banana:
+# Example Do not print banana:
 
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
