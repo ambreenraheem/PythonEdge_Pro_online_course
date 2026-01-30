@@ -6,7 +6,7 @@ Date: 25-January-2026
 #### Topic: **for, while & nested loop**
 
 **Python Tutor:** https://pythontutor.com/  
-For understanding use Python Tutor: "A best site to understand how python loop works step by step"
+For understanding use Python Tutor: "A best site to understand how python loop works step by step"\
 Loops in Python are used to repeat actions efficiently. The main types are For loops (counting through items) and While loops (based on conditions).
 
 **For Loop**
@@ -88,6 +88,8 @@ print(f"\nMultiplication Table for {N}:")
 for i in range(1, 11): # Loop from 1 to 10 (inclusive)
     product = N * i
     print(f"{N} x {i} = {product}")
+else:
+    print("Enter your number in integer")
 ```
 
 3.  **range(start, stop, step)**: Generates numbers from `start` up to (but not including) `stop`, incrementing by `step` each time.
@@ -121,7 +123,8 @@ for i in range(1, 11):
 print("Loop finished.")
 ```
 
-### Break in List
+#### Break in List
+**Example:01**
 ```
 fruits = ["apple", "banana", "cherry", "date", "fig"]
 search_item = "cherry"
@@ -140,6 +143,76 @@ if found:
 else:
     print("Item not found.")
 ```
+**Example:02**
+```
+Exit the loop when x is "banana":
+
+fruits = ["apple","apricot", "banana", "cherry"]
+for x in fruits:
+  print(x)
+  if x == "banana":
+    break
+```
+**Examole:03**
+```
+Exit the loop when x is "banana", but this time the break comes before the print:
+
+fruits = ["apple", "apricot", "banana", "cherry"]
+for x in fruits:
+  if x == "banana":
+    break
+  print(x)
+```
+
+#### The continue Statement
+
+The continue statement is used to skip the rest of the code inside a loop for the current iteration only. The loop does not terminate; it proceeds to the next iteration.
+
+It's useful when you want to bypass certain parts of the loop's body based on a condition, but still want the loop to continue its execution.
+
+**Example 1: Using continue to skip a specific number.**
+```
+# Example: Using 'continue' to skip printing the number 5
+print("Counting from 1 to 10, but skipping 5:")
+for i in range(1, 11):
+    if i == 5:
+        print(f"Skipping {i}...")
+        continue # Skip the rest of the current iteration when i is 5
+    print(i)
+
+print("Loop finished.")
+```
+
+**Example 2: Using continue to print only even numbers.**
+
+```
+# Example: Using 'continue' to print only even numbers
+print("Printing only even numbers from 1 to 10:")
+for i in range(1, 11):
+    if i % 2 != 0: # If i is odd
+        continue # Skip to the next iteration
+    print(i)
+
+print("Loop finished.")
+```
+
+```
+# Example
+Do not print banana:
+
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  if x == "banana":
+    continue
+  print(x)
+```
+
+
+
+
+
+
+
 
 
 
