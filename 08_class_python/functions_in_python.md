@@ -30,7 +30,7 @@ def greet():
 greet()
 ```
 
-**Note: The code inside the function must be indented. Python uses indentation to define code blocks. And **
+**Note: The code inside the function must be indented. Python uses indentation to define code blocks.**
 
 **Function names are crucial for several reasons:**  
 
