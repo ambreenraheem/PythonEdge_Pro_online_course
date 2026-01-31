@@ -54,7 +54,7 @@ When writing function names in Python, it's important to follow certain conventi
 
 **Bad: avg(), check(), getData() (uses camelCase, not idiomatic Python), _f1() (too generic)**
 
-#### Functions with Arguments
+### Functions with Arguments
 
 Functions can take input values, called arguments, which are specified in the parentheses when defining the function.
 These arguments act as variables within the function's scope.
@@ -63,9 +63,19 @@ These arguments act as variables within the function's scope.
 You pass these 'ingredients' to the function so it knows what to work with. Inside the function, these ingredients are called 'parameters'.
 So, when you call a function, you supply the arguments, and the function uses its parameters to receive those arguments and perform its task.**
 
+```
+# A function with one argument:
+def my_function(fname):
+  print(fname + " Khan") # fname means first name
+
+my_function("Fasiullah")  
+my_function("Mehwish")
+my_function("Sehrish")
+```
+
 **In the `greet_name` example:**
 - `name` is a parameter that acts as a placeholder for the value you pass when calling the function.
-- When you call `greet_name("Alice")`, "Alice" is the argument passed to the `name` parameter.
+- When you call `greet_name("Kashif")`, "Kashif" is the argument passed to the `name` parameter.
 
 **In the `add_numbers` example:**
 - `num1` and `num2` are parameters.
@@ -78,8 +88,8 @@ def greet_name(name):
     print(f"Hello, {name}!")
 
 # Calling the function with an argument
-greet_name("Alice")
-greet_name("Bob")
+greet_name("Kashif")
+greet_name("Ahmed")
 
 # Second function that takes multiple arguments
 def add_numbers(num1, num2):
@@ -92,13 +102,40 @@ print(f"The sum is: {result}")
 
 print(f"Another sum: {add_numbers(10, 20)}")
 ```
+```
+# Third function that takes multiple arguments 
+def my_function(animal, name):
+  print("I have a", animal)
+  print("My", animal + "'s name is", name)
 
+my_function(animal = "dog", name = "Buddy")
+```
 
+### Parameters vs Arguments
+The terms parameter and argument can be used for the same thing: information that are passed into a function.
 
+From a function's perspective:
+- **A parameter** is the variable listed inside the parentheses in the function definition.
+- **An argument** is the actual value that is sent to the function when it is called.
 
+**For Example:**
+```
+def my_function(name): # name is a parameter
+  print("Hello! I am ", name)
 
+my_function("Shazia") # "Shazia" is an argument
+```
 
+### Function with User Input
+```
+def greet_user_input():
+    """Prompts the user for their name and prints a personalized greeting."""
+    user_name = input("Please enter your name: ")
+    print(f"Hello, {user_name}! Welcome to Python functions.")
 
+# Call the function to get user input and greet them
+greet_user_input()
+```
 
 
 
