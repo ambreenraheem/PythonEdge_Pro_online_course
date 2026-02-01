@@ -53,8 +53,6 @@ When writing function names in Python, it's important to follow certain conventi
 **Good: calculate_average(), is_valid_email(), fetch_data_from_api()**
 
 **Bad: avg(), check(), getData() (uses camelCase, not idiomatic Python), _f1() (too generic)**
-
-![(function-python.png)]
  
 ### Functions with Arguments
 
@@ -138,6 +136,83 @@ def greet_user_input():
 # Call the function to get user input and greet them
 greet_user_input()
 ```
+
+### Types of Function Arguments
+
+Python supports various types of arguments that can be passed at the time of the function call. In Python, we have the following function argument types in Python, Let's study more:
+
+**1. Default Arguments**\
+Default Arguments
+You can provide default values for arguments. If a value is not provided during the function call, the default value is used.\
+
+```
+def myFun(x, y=50):
+    print("x: ", x)
+    print("y: ", y)
+```
+
+```
+def greet_language(name, language="English"):
+    """This function greets a person in a specified language, with English as default."""
+    if language == "English":
+        print(f"Hello, {name}!")
+    elif language == "Spanish":
+        print(f"Hola, {name}!")
+    elif language == "French":
+        print(f"Bonjour, {name}!")
+    else:
+        print(f"Greetings, {name}! (in {language})")
+
+# Calling with default argument
+greet_language("Alice")
+
+# Calling with a specified argument
+greet_language("Bob")
+greet_language("Charlie", "French")
+```
+
+Default Arguments with User Input:\
+This example demonstrates a function that takes user input for a name and uses a default argument for the greeting language. The user can optionally specify a different language.
+
+```
+def greet_with_options(name, language="English"):
+    """Greets a person by name in a specified language, defaulting to English."""
+    if language.lower() == "english":
+        return f"Hello, {name}!"
+    elif language.lower() == "spanish":
+        return f"Hola, {name}!"
+    elif language.lower() == "french":
+        return f"Bonjour, {name}!"
+    else:
+        return f"Greetings, {name}! (in {language})"
+
+# Get name from user
+user_name_input = input("Please enter your name: ")
+
+# Ask if user wants to specify a language (optional)
+language_choice = input("Enter a language (e.g., Spanish, French) or leave blank for English: ")
+
+# Call the function with user input and handle the optional language
+if language_choice:
+    greeting = greet_with_options(user_name_input, language=language_choice)
+else:
+    greeting = greet_with_options(user_name_input)
+
+print(greeting)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
