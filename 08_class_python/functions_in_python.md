@@ -54,7 +54,7 @@ When writing function names in Python, it's important to follow certain conventi
 
 **Bad: avg(), check(), getData() (uses camelCase, not idiomatic Python), _f1() (too generic)**
 
-![image(C:\Users\HOME\Downloads\function-python.png)]
+![(function-python.png)]
  
 ### Functions with Arguments
 
