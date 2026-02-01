@@ -54,6 +54,9 @@ When writing function names in Python, it's important to follow certain conventi
 
 **Bad: avg(), check(), getData() (uses camelCase, not idiomatic Python), _f1() (too generic)**
 
+"C:\Users\HOME\Downloads\function-python.png"
+
+
 ### Functions with Arguments
 
 Functions can take input values, called arguments, which are specified in the parentheses when defining the function.
