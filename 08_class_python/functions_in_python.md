@@ -142,7 +142,6 @@ greet_user_input()
 Python supports various types of arguments that can be passed at the time of the function call. In Python, we have the following function argument types in Python, Let's study more:
 
 **1. Default Arguments**\
-Default Arguments
 You can provide default values for arguments. If a value is not provided during the function call, the default value is used.\
 
 ```
@@ -164,14 +163,16 @@ def greet_language(name, language="English"):
         print(f"Greetings, {name}! (in {language})")
 
 # Calling with default argument
-greet_language("Alice")
+greet_language("Shazia")
 
 # Calling with a specified argument
-greet_language("Bob")
-greet_language("Charlie", "French")
+greet_language("Raheem", "Spanish")
+greet_language("Farooq", "French")
 ```
 
-Default Arguments with User Input:\
+**Default Arguments with User Input:**\
+A default argument is a parameter that assumes a default value if a value is not provided in the function call for that argument.
+
 This example demonstrates a function that takes user input for a name and uses a default argument for the greeting language. The user can optionally specify a different language.
 
 ```
@@ -200,6 +201,120 @@ else:
 
 print(greeting)
 ```
+**2. Keyword Arguments:**\
+Function using **keyword arguments**, allows us to specify the parameter names, so the order no longer matters.
+```
+# Example: 01
+def student(fname, lname):
+    print(fname, lname)
+
+student(fname='PythonEdge-Pro', lname='Practice')
+student(lname='Practice', fname='PythonEdge-Pro')
+```
+```
+# Example: 02
+def greet(name, message):
+    print(f"Hello, {name}! {message}")
+
+# Calling with keyword arguments (order does not matter)
+greet(name="Bob", message="Nice to meet you!")
+
+# Calling with keyword arguments in a different order
+greet(message="Hope you're having a good day!", name="Dawood")
+```
+
+**3. Positional Arguments**\
+In positional arguments, values are assigned to parameters based on their order in the function call.
+
+You can also combine positional and keyword arguments. The rule is that all positional arguments must come before any keyword arguments.
+```
+# Example: 01
+# Calling with mixed arguments (positional first, then keyword)
+greet("Rashid", message="Hello there!")
+
+# This would cause a syntax error: keyword argument cannot precede a positional argument
+# greet(message="Hi!", "Saleem")
+```
+```
+# Example: 02
+def nameAge(name, age):
+    print("Hi, I am", name)
+    print("My age is ", age)
+
+print("Case-1:")
+nameAge("Sajid", 27)
+
+print("\nCase-2:")
+nameAge(27, "Sajid")
+```
+
+**4. Arbitrary Arguments**\
+In Python Arbitrary Keyword Arguments, *args and **kwargs can pass a variable number of arguments to a function using special symbols. There are two special symbols:
+
+- *args in Python (Non-Keyword Arguments)
+- **kwargs in Python (Keyword Arguments)
+This code separately shows non-keyword (*args) and keyword (**kwargs) arguments in the same function.
+```
+def func_with_arbitrary_args(arg1, *args, **kwargs):
+    print(f"First argument: {arg1}")
+    if args:
+        print(f"Non-keyword arguments (*args): {args}")
+    if kwargs:
+        print(f"Keyword arguments (**kwargs): {kwargs}")
+
+# Calling the function with arbitrary arguments
+func_with_arbitrary_args("Hello", 1, 2, 3, key1="value1", key2="value2")
+
+print("\n")
+func_with_arbitrary_args("Greetings", "a", "b", greeting="Hi", farewell="Bye")
+
+print("\n")
+func_with_arbitrary_args("Only positional arg")
+
+print("\n")
+func_with_arbitrary_args("Only keyword args (after positional)", city="New York", temp=25)
+```
+
+### Functions within Functions (Inner/Nested Functions)
+A function defined inside another function is called an inner function (or nested function). Inner functions have access to variables from the enclosing (outer) function's scope, even after the outer function has finished execution. This is a concept known as a closure.
+
+They are often used to:
+
+- Encapsulate logic: Hide implementation details that are only relevant to the outer function.
+- Create closures: Allow the inner function to 'remember' the environment in which it was created.
+- Organize code: Keep related functionality together.
+Let's see an example:
+
+```
+def outer_function(message):
+    # This is a variable in the outer function's scope
+    greeting = "Hello from outer function!"
+
+    def inner_function(name):
+        # inner_function can access 'greeting' and 'message' from outer_function's scope
+        print(f"{greeting} {message}, {name}!")
+
+    # The outer function returns the inner function
+    return inner_function
+
+# Call the outer function, which returns the inner function
+my_greeting = outer_function("Welcome")
+
+# Now, call the returned inner function
+my_greeting("Alice")
+my_greeting("Bob")
+
+# Another example with a different message
+another_greeting = outer_function("Good to see you")
+another_greeting("Charlie")
+```
+
+
+
+
+
+
+
 
 
 
