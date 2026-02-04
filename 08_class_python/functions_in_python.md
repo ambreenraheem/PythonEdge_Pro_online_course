@@ -275,14 +275,78 @@ print("\n")
 func_with_arbitrary_args("Only keyword args (after positional)", city="New York", temp=25)
 ```
 
-### Functions within Functions (Inner/Nested Functions)
-A function defined inside another function is called an inner function (or nested function). Inner functions have access to variables from the enclosing (outer) function's scope, even after the outer function has finished execution. This is a concept known as a closure.
+### Function Within Functions (Inner/Nested Function) — Definition
 
-They are often used to:
+A function within a function is called an inner or nested function. It is a function created inside another function and can use the variables and data from the outer (enclosing) function’s scope. This technique is used to hide implementation details, protect logic from outside access, and keep related code structured and organized.
 
-- **Encapsulate logic:** Hide implementation details that are only relevant to the outer function.
-- **Create closures:** Allow the inner function to 'remember' the environment in which it was created.
-- **Organize code:** Keep related functionality together.
+**In easy words:**
+
+A function within a function means putting one function inside another function.\
+The inside function can use the things (like variables) from the outside function.
+
+We do this to keep code private, keep things neat, and group related work together.
+
+#### Python Inner Functions (Nested Functions) — Simple Explanation
+
+In Python, an inner function is a function written inside another function.
+
+They are useful for:
+
+- Encapsulation – Keeping helper code hidden so it can't be used from outside.
+- Better organization – Placing related code together makes programs easier to read.
+- Using outer variables – Inner functions can use data from the outer function.
+- Closures & decorators – Used in advanced Python features where functions remember values.
+
+This helps make programs cleaner, safer, and easier to manage.
+
+**Example 1: Simple Inner Function**
+```
+def outer_function():
+    message = "Hello from outer function!"
+
+    def inner_function():
+        print(message)  # Using variable from outer function
+
+    inner_function()  # Calling inner function
+
+outer_function()
+```
+
+The inner function can use the message variable from the outer function.
+
+**Example 2: Inner Function as Helper**
+
+```
+def calculate_square(number):
+
+    def multiply(n):
+        return n * n   # Helper function
+
+    result = multiply(number)
+    print("Square is:", result)
+
+calculate_square(5)
+```
+
+Here, multiply() is hidden inside calculate_square() because it's only needed there.
+
+**Example 3: Closure (Function Remembering Value)**
+
+```
+def outer(x):
+
+    def inner(y):
+        return x + y  # Remembers x
+
+    return inner
+
+add_five = outer(5)
+print(add_five(3))
+```
+
+Even though outer() finished, the inner function remembers x = 5. This is called a closure.
+
+**Inner functions help keep code private, organized, and powerful.**
 
 **In this example:**
 
@@ -314,16 +378,231 @@ another_greeting = outer_function("Good to see you")
 another_greeting("Charlie")
 ```
 
+**Scope of Variables in Inner Functions**
 
+Inner (nested) functions follow Python’s LEGB rule for finding variables:
 
+- L → Local (inside the inner function)
+- E → Enclosing (inside the outer function)
+- G → Global (file-level variables)
+- B → Built-in (Python’s reserved names like print, len)
 
+**An inner function can read variables from the outer function.
+To change them, we use the keyword nonlocal.**
 
+**Example 1: Accessing Outer Variable**
 
+```
+def outer():
+    message = "Hello from outer"
 
+    def inner():
+        print(message)  # Using outer variable
 
+    inner()
 
+outer()
+```
 
+The inner function can use message because it belongs to the enclosing scope.
 
+**Example 2: Changing Outer Variable (nonlocal)**
+
+```
+def outer():
+    a = 10
+
+    def inner():
+        nonlocal a
+        a = 20
+        print("Inside inner:", a)
+
+    inner()
+    print("Inside outer:", a)
+
+outer()
+```
+
+nonlocal tells Python to modify the outer variable instead of creating a new local one.
+
+**Example 3: Closure (Remembering Value)**
+
+```
+def outer(text):
+
+    def inner():
+        print(text)
+
+    return inner
+
+my_func = outer("Closures are powerful!")
+my_func()
+```
+
+Even after outer() finishes, inner() remembers text. This is called a closure.
+
+**Real-World Uses of Inner Functions**
+
+```
+# 1. Encapsulation (Hidden Helper Function)
+def process_data(data):
+
+    def clean():
+        return [item.strip() for item in data]
+
+    return clean()
+
+print(process_data(["  Python  ", "  Code  "]))
+```
+
+The helper function clean() is hidden inside process_data().
+
+```
+# 2. Wrappers (Logging / Decorators)
+def logger(func):
+
+    def wrapper(*args, **kwargs):
+        print(f"Calling {func.__name__} with {args} {kwargs}")
+        return func(*args, **kwargs)
+
+    return wrapper
+
+@logger
+def add(a, b):
+    return a + b
+
+print(add(3, 4))
+```
+
+The inner function wrapper() runs before the real function — this idea is used in decorators.
+
+### Return Statement in Python Functions
+
+The return statement stops a function and sends a value back to where the function was called.
+
+A function can return:
+
+- A number
+- A string
+- A list
+
+Multiple values (as a tuple)\
+Or nothing (then it returns None)
+
+```
+Example
+def square_value(num):
+    return num ** 2
+
+print(square_value(2))
+print(square_value(-4))
+```
+
+The function calculates the square and returns the result.
+
+**Pass by Reference vs Pass by Value (Python Behavior)**
+
+In Python, variables point to objects. What happens inside a function depends on the object type.
+
+Mutable Objects (can change)
+
+```
+# Examples: list, dictionary, set
+# Changes inside the function affect the original object.
+
+def change_list(x):
+    x[0] = 20
+
+lst = [10, 11, 12]
+change_list(lst)
+print(lst)
+```
+The list changed.
+
+Immutable Objects (cannot change)
+
+```
+# Examples: int, float, string, tuple
+
+Changes inside the function do not affect the original value.
+
+def change_number(x):
+    x = 20
+
+a = 10
+change_number(a)
+print(a)
+```
+
+The number stayed the same.
+
+**Note: Python actually uses pass-by-object-reference.**
+
+**Recursive Functions**
+
+A recursive function is a function that calls itself.\
+It must have a base case (a stopping condition), or it will run forever.
+
+```
+# Example: Factorial
+
+Factorial of 4 = 4 × 3 × 2 × 1
+
+def factorial(n):
+    if n == 0:      # Base case
+        return 1
+    else:
+        return n * factorial(n - 1)
+
+print(factorial(4))
+```
+
+The function keeps calling itself until it reaches the base case (n == 0).
+
+### Anonymous Functions (Lambda Functions) in Python
+An anonymous function is a function without a name.\
+In Python, we create them using the lambda keyword instead of def.
+
+They are usually used for short, simple tasks where writing a full function is not necessary.
+
+```
+def cube(x): return x*x*x   # without lambda
+cube_l = lambda x : x*x*x  # with lambda
+​
+print(cube(7))
+print(cube_l(7))
+```
+```
+# Normal Function (using def)
+def cube(x):
+    return x * x * x
+
+print(cube(7))
+```
+
+**Anonymous Function (using lambda)**
+```
+cube_l = lambda x: x * x * x
+
+print(cube_l(7))
+```
+
+Both functions do the same work, but lambda lets us write it in one line.
+
+**Where Lambda is Commonly Used**
+
+Lambda functions are often used with functions like:
+- map() – apply a function to every item
+- filter() – select items based on a condition
+- sorted() – sort with custom rules
+```
+# Example with map()
+numbers = [1, 2, 3, 4]
+squares = list(map(lambda x: x**2, numbers))
+print(squares)
+```
+**In simple words**\
+**A lambda function is a small, one-line function without a name, used when we need quick, simple.**
 
 
 
