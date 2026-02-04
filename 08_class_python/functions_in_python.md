@@ -280,10 +280,15 @@ A function defined inside another function is called an inner function (or neste
 
 They are often used to:
 
-- Encapsulate logic: Hide implementation details that are only relevant to the outer function.
-- Create closures: Allow the inner function to 'remember' the environment in which it was created.
-- Organize code: Keep related functionality together.
-Let's see an example:
+- **Encapsulate logic:** Hide implementation details that are only relevant to the outer function.
+- **Create closures:** Allow the inner function to 'remember' the environment in which it was created.
+- **Organize code:** Keep related functionality together.
+
+**In this example:**
+
+- inner_function is defined inside outer_function.
+- inner_function can access message (passed to outer_function) and greeting (defined within outer_function).
+- When outer_function is called, it returns inner_function. This returned function (e.g., my_greeting) remembers the message and greeting from when outer_function was executed, forming a closure.
 
 ```
 def outer_function(message):
