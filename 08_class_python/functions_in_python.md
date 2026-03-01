@@ -30,6 +30,12 @@ def greet():
 greet()
 ```
 
+```
+def hello():
+    """This function prints a simple hello."""
+    print("Hello, We are learning python.")
+```
+
 **Note: The code inside the function must be indented. Python uses indentation to define code blocks.**
 
 **Function names are crucial for several reasons:**  
@@ -54,36 +60,49 @@ When writing function names in Python, it's important to follow certain conventi
 
 **Bad: avg(), check(), getData() (uses camelCase, not idiomatic Python), _f1() (too generic)**
  
-### Functions with Arguments
+### Functions with Parameters
 
-Functions can take input values, called arguments, which are specified in the parentheses when defining the function.
-These arguments act as variables within the function's scope.
+A parameter is a variable listed inside the parentheses when defining a function.\
+Parameters act as placeholders to receive values when the function is called.
 
-**For more understanding: Think of arguments like ingredients for a recipe. When you make a cake (your function), you need flour, sugar, and eggs (your arguments).
-You pass these 'ingredients' to the function so it knows what to work with. Inside the function, these ingredients are called 'parameters'.
-So, when you call a function, you supply the arguments, and the function uses its parameters to receive those arguments and perform its task.**
+In simple words:
+
+- Parameters are variables in the function definition.
+- They receive the arguments (actual values) when the function is called.
+
+**For more understanding: Think of a parameter like an empty box labeled "name". When you call the function, you put a value into that box, and the function uses it.**
 
 ```
-# A function with one argument:
-def my_function(fname):
+# A function with one parameters:
+def my_function(fname): # fname is a Parameters
   print(fname + " Khan") # fname means first name
 
-my_function("Fasiullah")  
-my_function("Mehwish")
-my_function("Sehrish")
+my_function("Fasiullah")  # Fasiullah is an arguments
+my_function("Mehwish")    # Mehwish is an arguments
+my_function("Sehrish")    # Sehrish is an arguments
 ```
 
-**In the `greet_name` example:**
+**Example in Python:**
+```
+def greet(name):   # 'name' is a parameter
+    print("Hello,", name)
+
+greet("Ali")      # "Ali" is the argument
+greet("Sara")     # "Sara" is another argument
+```
+**Explanation: The function uses the parameter to work with different values.**
+
+**In the `greet_name` example-01:**
 - `name` is a parameter that acts as a placeholder for the value you pass when calling the function.
 - When you call `greet_name("Kashif")`, "Kashif" is the argument passed to the `name` parameter.
 
-**In the `add_numbers` example:**
+**In the `add_numbers` example-02:**
 - `num1` and `num2` are parameters.
 - The function calculates their sum and uses the `return` keyword to send the result back to the caller.
 
 ```
-# First function that takes one argument
-def greet_name(name):
+# First function that takes one parameter and one argument
+def greet_name(name):       # greet_name is one parameter
     """This function greets the person passed in as an argument."""
     print(f"Hello, {name}!")
 
@@ -111,19 +130,89 @@ def my_function(animal, name):
 my_function(animal = "dog", name = "Buddy")
 ```
 
-### Parameters vs Arguments
-The terms parameter and argument can be used for the same thing: information that are passed into a function.
+### Difference Between Parameters and Arguments:
 
-From a function's perspective:
-- **A parameter** is the variable listed inside the parentheses in the function definition.
-- **An argument** is the actual value that is sent to the function when it is called.
+| Feature          | Parameters                                                   | Arguments                                                               |
+| ---------------- | ------------------------------------------------------------ | ----------------------------------------------------------------------- |
+| Definition       | Parameters are variables defined in the function definition. | Arguments are the actual values passed to the function when calling it. |
+| Where used       | Used when creating (defining) a function.                    | Used when calling (using) a function.                                   |
+| Purpose          | They receive the values.                                     | They provide the values.                                                |
+| Nature           | They are placeholders (variables).                           | They are real data (values).                                            |
+| Example location | Inside `def function_name(parameter):`                       | Inside `function_name(argument)`                                        |
 
-**For Example:**
+
+**In Python, there are 5 main types of parameters in functions:**
+
+**1. Positional Parameters**\
+These are the most common. Values are passed in the same order as parameters.
+
+**Example-01:**
 ```
-def my_function(name): # name is a parameter
-  print("Hello! I am ", name)
+def greet(name, age):
+    print(name, "is", age, "years old")
 
-my_function("Shazia") # "Shazia" is an argument
+greet("Ali", 10)
+```
+
+**2. Default Parameters**\
+These have a default value. If no argument is given, the default is used.
+
+**Example-02:**
+```
+def greet(name="Guest"):
+    print("Hello,", name)
+
+greet("Sara")
+greet()
+```
+
+**3. Keyword Parameters**\
+You pass arguments using the parameter name.
+
+**Example-03:**
+```
+def greet(name, age):
+    print(name, "is", age)
+
+greet(age=12, name="Ahmed")
+```
+****4. Variable-Length Parameters(*args)****\
+Used when you don’t know how many arguments will be passed.
+
+**Example-04:**
+```
+def add_numbers(*numbers):
+    print(numbers)
+
+add_numbers(1, 2, 3, 4)
+```
+
+****5. Keyword Variable-Length Parameters (**kwargs)****\
+Used to pass many keyword arguments.
+
+**Example-05:**
+```
+def show_info(**info):
+    print(info)
+
+show_info(name="Ali", age=10, city="Karachi")
+```
+
+### Functions with Arguments
+
+Functions can take input values called arguments, which are specified in the parentheses when calling the function. These values are received by the function as parameters, which act as variables within the function's scope.
+
+**For better understanding: Think of arguments like ingredients for a recipe. When you make a cake (the function), you need flour, sugar, and eggs (the arguments). You pass these ingredients to the function so it knows what to work with. Inside the function, these ingredients are called parameters. When you call a function, you provide the arguments, and the function uses its parameters to receive those arguments and perform its task.**
+
+- Parameters → variables that receive those values in the function definition
+- Arguments → values you pass when calling the function
+
+**Example in Python:**
+```
+def make_cake(flour, sugar, eggs):   # flour, sugar, eggs are parameters
+    print("Making cake with", flour, sugar, eggs)
+
+make_cake("2 cups flour", "1 cup sugar", "3 eggs")   # these are arguments
 ```
 
 ### Function with User Input
