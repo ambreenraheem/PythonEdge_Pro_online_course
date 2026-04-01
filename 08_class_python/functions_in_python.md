@@ -176,7 +176,7 @@ def greet(name, age):
 
 greet(age=12, name="Ahmed")
 ```
-****4. Variable-Length Parameters(*args)****\
+**4. Variable-Length Parameters(*args)**\
 Used when you don’t know how many arguments will be passed.
 
 **Example-04:**
