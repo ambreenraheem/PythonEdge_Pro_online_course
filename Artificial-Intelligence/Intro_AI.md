@@ -5,6 +5,6 @@ Date: 15- April- 2026
 
 ### What is Artifitial Intelligence
 
-![image](./https://github.com/ambreenraheem/PythonEdge_Pro_online_course/blob/main/Artificial-Intelligence/intelligence.jpg?raw=true)
+<img href="https://openresearch.amsterdam/image/2021/6/9/0_ygvtacpq4j4fix06.jpg" width="300" height="566" />
 
 
