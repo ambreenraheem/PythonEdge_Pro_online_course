@@ -63,5 +63,76 @@ Student.show_name()
 | Data is not protected | Encapsulation hides sensitive data |
 | Same function behaves differently in different contexts | Polymorphism handles this cleanly |
 
-
+## Core Concepts of OOP
+ 
+### 1. Class & Object
+ 
+> A **Class** is like a **blueprint** (template).  
+> An **Object** is a **real thing** made from that blueprint.
+ 
+🏠 Think of it like: A class is the architectural plan of a house. Objects are the actual houses built from that plan.
+ 
+```python
+# Blueprint (Class)
+class Car:
+    color = "Red"
+    brand = "Toyota"
+ 
+# Object (Real thing)
+my_car = Car()           # Creating an object from the class
+print(my_car.color)      # Red
+print(my_car.brand)      # Toyota
+ 
+your_car = Car()
+your_car.color = "Blue"  # Changing this object's color only
+print(your_car.color)    # Blue
+print(my_car.color)      # Red (my_car is not affected)
+```
+ 
+### 2. Attributes & Methods
+ 
+**Attributes** = Data stored in a class (variables)  
+**Methods** = Actions a class can perform (functions inside a class)
+ ```
+class Dog:
+    # Attribute
+    species = "Canine"
+ 
+    # Method (action)
+    def bark(self):
+        print("Woof! Woof!")
+ 
+    def fetch(self, item):
+        print(f"Fetching the {item}!")
+ 
+# Creating an object
+my_dog = Dog()
+print(my_dog.species)    # Canine  ← accessing attribute
+my_dog.bark()            # Woof! Woof!  ← calling method
+my_dog.fetch("ball")     # Fetching the ball!
+```
+ 
+💡 **What is `self`?**\  
+ `self` refers to the **current object**. When you call `my_dog.bark()`, Python automatically passes `my_dog` as `self`. It's how the method knows which object it belongs to.
+ 
+### 3. The `__init__` Constructor
+ 
+> `__init__` is a **special method** that runs **automatically** when you create an object. It's used to set up initial values.
+ 
+```
+class Person:
+    def __init__(self, name, age):  # Constructor
+        self.name = name            # Setting attribute
+        self.age = age              # Setting attribute
+ 
+    def greet(self):
+        print(f"Hi! I'm {self.name} and I'm {self.age} years old.")
+ 
+# When we create a Person object, __init__ runs automatically
+p1 = Person("Ambreen", 22)
+p2 = Person("Sara", 25)
+ 
+p1.greet()   # Hi! I'm Ambreen and I'm 22 years old.
+p2.greet()   # Hi! I'm Sara and I'm 25 years old.
+```
 
