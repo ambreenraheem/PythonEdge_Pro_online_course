@@ -5,5 +5,5 @@ Date: 15- April- 2026
 
 ### What is Artifitial Intelligence
 
-
+![image](./)
 
