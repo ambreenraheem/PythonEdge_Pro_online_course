@@ -344,24 +344,7 @@ In Python Arbitrary Keyword Arguments, *args and **kwargs can pass a variable nu
 - **kwargs in Python (Keyword Arguments)
 This code separately shows non-keyword (*args) and keyword (**kwargs) arguments in the same function.
 ```
-def func_with_arbitrary_args(arg1, *args, **kwargs):
-    print(f"First argument: {arg1}")
-    if args:
-        print(f"Non-keyword arguments (*args): {args}")
-    if kwargs:
-        print(f"Keyword arguments (**kwargs): {kwargs}")
-
-# Calling the function with arbitrary arguments
-func_with_arbitrary_args("Hello", 1, 2, 3, key1="value1", key2="value2")
-
-print("\n")
-func_with_arbitrary_args("Greetings", "a", "b", greeting="Hi", farewell="Bye")
-
-print("\n")
-func_with_arbitrary_args("Only positional arg")
-
-print("\n")
-func_with_arbitrary_args("Only keyword args (after positional)", city="New York", temp=25)
+function
 ```
 
 ### Function Within Functions (Inner/Nested Function) — Definition
