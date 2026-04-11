@@ -1,7 +1,7 @@
 Date:01-October-2025
 
 ## Instructor: Ambreen Abdul Raheem
-### Professional Power BI Data Analyst And AI Agent Developer (Upwork Freelancer)
+### Professional Data Analyst And Web Developer (Upwork Freelancer)
 
 
 [Watch "Ambreen The Data Analyst" on my YouTube Channel about Python](https://www.youtube.com/@AmbreenAbdulRaheem-y8m)
