@@ -5,6 +5,6 @@ Date: 15- April- 2026
 
 ### What is Artifitial Intelligence
 
-<img src="https://openresearch.amsterdam/image/2021/6/9/0_ygvtacpq4j4fix06.jpg" width="800" height="800"/>
+<img src="https://openresearch.amsterdam/image/2021/6/9/0_ygvtacpq4j4fix06.jpg" width="700" height="800"/>
 
 
