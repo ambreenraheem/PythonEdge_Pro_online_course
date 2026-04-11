@@ -39,4 +39,29 @@ Let's break down the main ideas:
 - Polymorphism: This means "many forms." It allows different objects to respond to the same command in their own way. For example, if you tell a 'Car' object to start(), it might turn on an engine. If you tell an 'ElectricCar' object to start(), it might power up a battery. The command start() is the same, but the action is different depending on the type of car.
 - By using these ideas, OOP helps us build programs that are more organized, easier to fix, and can be expanded more easily without breaking everything else. It makes coding feel more like managing a team of specialized workers than a giant, tangled ball of yarn!
 
+Example # 01:
+```
+class Student:
+    """Here we have created class."""
+    name= "ABC College" # class attribute
+    
+    # created method function
+    def show_name():
+        print(f"Welcome to my college!")
+
+print(Student.name)
+Student.show_name()
+```
+
+## Why Do We Need OOP?
+ 
+| Problem Without OOP | How OOP Solves It |
+|---|---|
+| Code becomes very long and hard to read | OOP groups related data and functions together |
+| Hard to reuse code | Inheritance lets you reuse existing code |
+| Hard to maintain large projects | Each class is independent and manageable |
+| Data is not protected | Encapsulation hides sensitive data |
+| Same function behaves differently in different contexts | Polymorphism handles this cleanly |
+
+
 
