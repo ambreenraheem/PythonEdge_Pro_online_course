@@ -1,7 +1,7 @@
 Date: 21-October-2025
 
 ## Instructor: Ambreen Abdul Raheem
-### Professional Power BI Data Analyst And AI Agent Developer (Upwork Freelancer)
+### Professional Data Analyst And Web Developer (Upwork Freelancer)
 #### 01. Tuple in Python
 A tuple is an ordered and immutable (unchangeable) sequence of elements. Tuples are useful when you want to store data that should not be modified, or to store fixed collections of data.
 
