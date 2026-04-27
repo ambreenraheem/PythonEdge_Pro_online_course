@@ -1,7 +1,7 @@
 Date: 21-October-2025
 
 ## Instructor: Ambreen Abdul Raheem
-### Professional Power BI Data Analyst And AI Agent Developer (Upwork Freelancer)
+### Professional Data Analyst And Web Developer (Upwork Freelancer)
 #### 🧠 Dictionaries in Python
 **1. Introduction to Dictionaries**\
 A dictionary in Python is a collection of key–value pairs, where each key maps to a value.
