@@ -1,7 +1,7 @@
 Date:24-September-2025
 
 ## Instructor: Ambreen Abdul Raheem
-### Professional Power BI Data Analyst And AI Agent Developer (Upwork Freelancer)
+### Professional Data Analyst And Web Developer (Upwork Freelancer)
 
 ### 04 # Python Data Types:
 ![datatype](https://github.com/user-attachments/assets/18ab9e66-03fa-419b-8fd8-7fb478a8e5ef)
