@@ -1,7 +1,7 @@
 Date: 20-December-2025
 
 ### Instructor: Ambreen Abdul Raheem
-### Professional Power BI Data Analyst And AI Agent Developer (Upwork Freelancer)
+### Professional Data Analyst And Web Developer (Upwork Freelancer)
 
 #### Python Input Function
 **What is input()?**
