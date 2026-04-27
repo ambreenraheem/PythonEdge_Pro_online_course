@@ -1,7 +1,7 @@
 Date:30-January-2026
 
 ### Instructor: Ambreen Abdul Raheem
-#### Professional Power BI Data Analyst And AI Agent Developer (Upwork Freelancer)
+#### Professional Data Analyst And Web Developer (Upwork Freelancer)
 
 #### Functions in Python
 Python Tutor: https://pythontutor.com/
