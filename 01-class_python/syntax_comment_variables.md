@@ -1,6 +1,6 @@
 Date:20-September-2025
 ## Instructor: Ambreen Abdul Raheem
-### Professional BI Data Analyst And Web Developer (Upwork Freelancer)
+### Professional Data Analyst And Web Developer (Upwork Freelancer)
 ### Python
 **Installation:** For installation, go to the Python official site and click here: https://www.python.org/
 
