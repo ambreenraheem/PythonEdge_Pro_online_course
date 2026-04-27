@@ -1,6 +1,6 @@
 Date: 19-October-2025
 ## Instructor: Ambreen Abdul Raheem
-### Professional Power BI Data Analyst And AI Agent Developer (Upwork Freelancer)
+### Professional Data Analyst And Web Developer (Upwork Freelancer)
 ### 01. Lists in Python
 In Python, lists are used to store multiple items in a single variable.\
 They are one of the four built-in data types used to store collections of data — the others being Tuple, Set, and Dictionary — each with unique features and use cases.\
